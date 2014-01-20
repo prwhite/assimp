@@ -7,11 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CC4830A188CFB250029408D /* ai_assert.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F97BA03515439DB3009EB9DD /* ai_assert.h */; };
+		1CC4830B188CFB250029408D /* anim.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B751543268400E63FFE /* anim.h */; };
+		1CC4830C188CFB250029408D /* camera.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B771543268400E63FFE /* camera.h */; };
+		1CC4830D188CFB250029408D /* cexport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B781543268400E63FFE /* cexport.h */; };
+		1CC4830E188CFB250029408D /* cfileio.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B791543268400E63FFE /* cfileio.h */; };
+		1CC4830F188CFB250029408D /* cimport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B7A1543268400E63FFE /* cimport.h */; };
+		1CC48310188CFB250029408D /* color4.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B7B1543268400E63FFE /* color4.h */; };
+		1CC48311188CFB250029408D /* poppack1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B7E1543268400E63FFE /* poppack1.h */; };
+		1CC48312188CFB250029408D /* pushpack1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B7F1543268400E63FFE /* pushpack1.h */; };
+		1CC48313188CFB250029408D /* config.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B801543268400E63FFE /* config.h */; };
+		1CC48314188CFB250029408D /* DefaultLogger.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B811543268400E63FFE /* DefaultLogger.hpp */; };
+		1CC48315188CFB250029408D /* defs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B821543268400E63FFE /* defs.h */; };
+		1CC48316188CFB250029408D /* Exporter.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B831543268400E63FFE /* Exporter.hpp */; };
+		1CC48317188CFB250029408D /* Importer.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B841543268400E63FFE /* Importer.hpp */; };
+		1CC48318188CFB250029408D /* importerdesc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B851543268400E63FFE /* importerdesc.h */; };
+		1CC48319188CFB250029408D /* IOStream.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B861543268400E63FFE /* IOStream.hpp */; };
+		1CC4831A188CFB250029408D /* IOSystem.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B871543268400E63FFE /* IOSystem.hpp */; };
+		1CC4831B188CFB250029408D /* light.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B881543268400E63FFE /* light.h */; };
+		1CC4831C188CFB250029408D /* Logger.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B891543268400E63FFE /* Logger.hpp */; };
+		1CC4831D188CFB250029408D /* LogStream.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B8A1543268400E63FFE /* LogStream.hpp */; };
+		1CC4831E188CFB250029408D /* material.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B8B1543268400E63FFE /* material.h */; };
+		1CC4831F188CFB250029408D /* matrix3x3.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B8D1543268400E63FFE /* matrix3x3.h */; };
+		1CC48320188CFB250029408D /* matrix4x4.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B8F1543268400E63FFE /* matrix4x4.h */; };
+		1CC48321188CFB250029408D /* mesh.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B911543268400E63FFE /* mesh.h */; };
+		1CC48322188CFB250029408D /* NullLogger.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B921543268400E63FFE /* NullLogger.hpp */; };
+		1CC48323188CFB250029408D /* postprocess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B931543268400E63FFE /* postprocess.h */; };
+		1CC48324188CFB250029408D /* ProgressHandler.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B941543268400E63FFE /* ProgressHandler.hpp */; };
+		1CC48325188CFB250029408D /* quaternion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B951543268400E63FFE /* quaternion.h */; };
+		1CC48326188CFB250029408D /* scene.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B971543268400E63FFE /* scene.h */; };
+		1CC48327188CFB250029408D /* texture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B981543268400E63FFE /* texture.h */; };
+		1CC48328188CFB250029408D /* types.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B991543268400E63FFE /* types.h */; };
+		1CC48329188CFB250029408D /* vector2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B9A1543268400E63FFE /* vector2.h */; };
+		1CC4832A188CFB250029408D /* vector3.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B9C1543268400E63FFE /* vector3.h */; };
+		1CC4832B188CFB250029408D /* version.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B9E1543268400E63FFE /* version.h */; };
 		2B7F46DD1708365200A106A9 /* assbin_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F456D1708365100A106A9 /* assbin_chunks.h */; };
 		2B7F46DE1708365200A106A9 /* assbin_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F456D1708365100A106A9 /* assbin_chunks.h */; };
 		2B7F46DF1708365200A106A9 /* assbin_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F456D1708365100A106A9 /* assbin_chunks.h */; };
 		2B7F46E01708365200A106A9 /* assbin_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F456D1708365100A106A9 /* assbin_chunks.h */; };
-		2B7F46E11708365200A106A9 /* assbin_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F456D1708365100A106A9 /* assbin_chunks.h */; };
 		2B7F46E21708365200A106A9 /* Assimp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F456E1708365100A106A9 /* Assimp.cpp */; };
 		2B7F46E31708365200A106A9 /* Assimp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F456E1708365100A106A9 /* Assimp.cpp */; };
 		2B7F46E41708365200A106A9 /* Assimp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F456E1708365100A106A9 /* Assimp.cpp */; };
@@ -31,7 +64,6 @@
 		2B7F47061708365200A106A9 /* BaseImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45751708365100A106A9 /* BaseImporter.h */; };
 		2B7F47071708365200A106A9 /* BaseImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45751708365100A106A9 /* BaseImporter.h */; };
 		2B7F47081708365200A106A9 /* BaseImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45751708365100A106A9 /* BaseImporter.h */; };
-		2B7F47091708365200A106A9 /* BaseImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45751708365100A106A9 /* BaseImporter.h */; };
 		2B7F470A1708365200A106A9 /* BaseProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45761708365100A106A9 /* BaseProcess.cpp */; };
 		2B7F470B1708365200A106A9 /* BaseProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45761708365100A106A9 /* BaseProcess.cpp */; };
 		2B7F470C1708365200A106A9 /* BaseProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45761708365100A106A9 /* BaseProcess.cpp */; };
@@ -41,87 +73,70 @@
 		2B7F47101708365200A106A9 /* BaseProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45771708365100A106A9 /* BaseProcess.h */; };
 		2B7F47111708365200A106A9 /* BaseProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45771708365100A106A9 /* BaseProcess.h */; };
 		2B7F47121708365200A106A9 /* BaseProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45771708365100A106A9 /* BaseProcess.h */; };
-		2B7F47131708365200A106A9 /* BaseProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45771708365100A106A9 /* BaseProcess.h */; };
 		2B7F47461708365200A106A9 /* BlobIOSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45831708365100A106A9 /* BlobIOSystem.h */; };
 		2B7F47471708365200A106A9 /* BlobIOSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45831708365100A106A9 /* BlobIOSystem.h */; };
 		2B7F47481708365200A106A9 /* BlobIOSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45831708365100A106A9 /* BlobIOSystem.h */; };
 		2B7F47491708365200A106A9 /* BlobIOSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45831708365100A106A9 /* BlobIOSystem.h */; };
-		2B7F474A1708365200A106A9 /* BlobIOSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45831708365100A106A9 /* BlobIOSystem.h */; };
 		2B7F474B1708365200A106A9 /* foreach.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45861708365100A106A9 /* foreach.hpp */; };
 		2B7F474C1708365200A106A9 /* foreach.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45861708365100A106A9 /* foreach.hpp */; };
 		2B7F474D1708365200A106A9 /* foreach.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45861708365100A106A9 /* foreach.hpp */; };
 		2B7F474E1708365200A106A9 /* foreach.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45861708365100A106A9 /* foreach.hpp */; };
-		2B7F474F1708365200A106A9 /* foreach.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45861708365100A106A9 /* foreach.hpp */; };
 		2B7F47501708365200A106A9 /* format.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45871708365100A106A9 /* format.hpp */; };
 		2B7F47511708365200A106A9 /* format.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45871708365100A106A9 /* format.hpp */; };
 		2B7F47521708365200A106A9 /* format.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45871708365100A106A9 /* format.hpp */; };
 		2B7F47531708365200A106A9 /* format.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45871708365100A106A9 /* format.hpp */; };
-		2B7F47541708365200A106A9 /* format.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45871708365100A106A9 /* format.hpp */; };
 		2B7F47551708365200A106A9 /* lexical_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45881708365100A106A9 /* lexical_cast.hpp */; };
 		2B7F47561708365200A106A9 /* lexical_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45881708365100A106A9 /* lexical_cast.hpp */; };
 		2B7F47571708365200A106A9 /* lexical_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45881708365100A106A9 /* lexical_cast.hpp */; };
 		2B7F47581708365200A106A9 /* lexical_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45881708365100A106A9 /* lexical_cast.hpp */; };
-		2B7F47591708365200A106A9 /* lexical_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45881708365100A106A9 /* lexical_cast.hpp */; };
 		2B7F475A1708365200A106A9 /* make_shared.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458A1708365100A106A9 /* make_shared.hpp */; };
 		2B7F475B1708365200A106A9 /* make_shared.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458A1708365100A106A9 /* make_shared.hpp */; };
 		2B7F475C1708365200A106A9 /* make_shared.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458A1708365100A106A9 /* make_shared.hpp */; };
 		2B7F475D1708365200A106A9 /* make_shared.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458A1708365100A106A9 /* make_shared.hpp */; };
-		2B7F475E1708365200A106A9 /* make_shared.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458A1708365100A106A9 /* make_shared.hpp */; };
 		2B7F475F1708365200A106A9 /* common_factor_rt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458C1708365100A106A9 /* common_factor_rt.hpp */; };
 		2B7F47601708365200A106A9 /* common_factor_rt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458C1708365100A106A9 /* common_factor_rt.hpp */; };
 		2B7F47611708365200A106A9 /* common_factor_rt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458C1708365100A106A9 /* common_factor_rt.hpp */; };
 		2B7F47621708365200A106A9 /* common_factor_rt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458C1708365100A106A9 /* common_factor_rt.hpp */; };
-		2B7F47631708365200A106A9 /* common_factor_rt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458C1708365100A106A9 /* common_factor_rt.hpp */; };
 		2B7F47641708365200A106A9 /* noncopyable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458D1708365100A106A9 /* noncopyable.hpp */; };
 		2B7F47651708365200A106A9 /* noncopyable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458D1708365100A106A9 /* noncopyable.hpp */; };
 		2B7F47661708365200A106A9 /* noncopyable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458D1708365100A106A9 /* noncopyable.hpp */; };
 		2B7F47671708365200A106A9 /* noncopyable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458D1708365100A106A9 /* noncopyable.hpp */; };
-		2B7F47681708365200A106A9 /* noncopyable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458D1708365100A106A9 /* noncopyable.hpp */; };
 		2B7F47691708365200A106A9 /* pointer_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458E1708365100A106A9 /* pointer_cast.hpp */; };
 		2B7F476A1708365200A106A9 /* pointer_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458E1708365100A106A9 /* pointer_cast.hpp */; };
 		2B7F476B1708365200A106A9 /* pointer_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458E1708365100A106A9 /* pointer_cast.hpp */; };
 		2B7F476C1708365200A106A9 /* pointer_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458E1708365100A106A9 /* pointer_cast.hpp */; };
-		2B7F476D1708365200A106A9 /* pointer_cast.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458E1708365100A106A9 /* pointer_cast.hpp */; };
 		2B7F476E1708365200A106A9 /* scoped_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458F1708365100A106A9 /* scoped_array.hpp */; };
 		2B7F476F1708365200A106A9 /* scoped_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458F1708365100A106A9 /* scoped_array.hpp */; };
 		2B7F47701708365200A106A9 /* scoped_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458F1708365100A106A9 /* scoped_array.hpp */; };
 		2B7F47711708365200A106A9 /* scoped_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458F1708365100A106A9 /* scoped_array.hpp */; };
-		2B7F47721708365200A106A9 /* scoped_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F458F1708365100A106A9 /* scoped_array.hpp */; };
 		2B7F47731708365200A106A9 /* scoped_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45901708365100A106A9 /* scoped_ptr.hpp */; };
 		2B7F47741708365200A106A9 /* scoped_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45901708365100A106A9 /* scoped_ptr.hpp */; };
 		2B7F47751708365200A106A9 /* scoped_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45901708365100A106A9 /* scoped_ptr.hpp */; };
 		2B7F47761708365200A106A9 /* scoped_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45901708365100A106A9 /* scoped_ptr.hpp */; };
-		2B7F47771708365200A106A9 /* scoped_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45901708365100A106A9 /* scoped_ptr.hpp */; };
 		2B7F47781708365200A106A9 /* shared_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45911708365100A106A9 /* shared_array.hpp */; };
 		2B7F47791708365200A106A9 /* shared_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45911708365100A106A9 /* shared_array.hpp */; };
 		2B7F477A1708365200A106A9 /* shared_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45911708365100A106A9 /* shared_array.hpp */; };
 		2B7F477B1708365200A106A9 /* shared_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45911708365100A106A9 /* shared_array.hpp */; };
-		2B7F477C1708365200A106A9 /* shared_array.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45911708365100A106A9 /* shared_array.hpp */; };
 		2B7F477D1708365200A106A9 /* shared_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45921708365100A106A9 /* shared_ptr.hpp */; };
 		2B7F477E1708365200A106A9 /* shared_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45921708365100A106A9 /* shared_ptr.hpp */; };
 		2B7F477F1708365200A106A9 /* shared_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45921708365100A106A9 /* shared_ptr.hpp */; };
 		2B7F47801708365200A106A9 /* shared_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45921708365100A106A9 /* shared_ptr.hpp */; };
-		2B7F47811708365200A106A9 /* shared_ptr.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45921708365100A106A9 /* shared_ptr.hpp */; };
 		2B7F47821708365200A106A9 /* static_assert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45931708365100A106A9 /* static_assert.hpp */; };
 		2B7F47831708365200A106A9 /* static_assert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45931708365100A106A9 /* static_assert.hpp */; };
 		2B7F47841708365200A106A9 /* static_assert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45931708365100A106A9 /* static_assert.hpp */; };
 		2B7F47851708365200A106A9 /* static_assert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45931708365100A106A9 /* static_assert.hpp */; };
-		2B7F47861708365200A106A9 /* static_assert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45931708365100A106A9 /* static_assert.hpp */; };
 		2B7F47871708365200A106A9 /* timer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45941708365100A106A9 /* timer.hpp */; };
 		2B7F47881708365200A106A9 /* timer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45941708365100A106A9 /* timer.hpp */; };
 		2B7F47891708365200A106A9 /* timer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45941708365100A106A9 /* timer.hpp */; };
 		2B7F478A1708365200A106A9 /* timer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45941708365100A106A9 /* timer.hpp */; };
-		2B7F478B1708365200A106A9 /* timer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45941708365100A106A9 /* timer.hpp */; };
 		2B7F478C1708365200A106A9 /* tuple.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45961708365100A106A9 /* tuple.hpp */; };
 		2B7F478D1708365200A106A9 /* tuple.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45961708365100A106A9 /* tuple.hpp */; };
 		2B7F478E1708365200A106A9 /* tuple.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45961708365100A106A9 /* tuple.hpp */; };
 		2B7F478F1708365200A106A9 /* tuple.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45961708365100A106A9 /* tuple.hpp */; };
-		2B7F47901708365200A106A9 /* tuple.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45961708365100A106A9 /* tuple.hpp */; };
 		2B7F479B1708365200A106A9 /* ByteSwap.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45991708365100A106A9 /* ByteSwap.h */; };
 		2B7F479C1708365200A106A9 /* ByteSwap.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45991708365100A106A9 /* ByteSwap.h */; };
 		2B7F479D1708365200A106A9 /* ByteSwap.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45991708365100A106A9 /* ByteSwap.h */; };
 		2B7F479E1708365200A106A9 /* ByteSwap.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45991708365100A106A9 /* ByteSwap.h */; };
-		2B7F479F1708365200A106A9 /* ByteSwap.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45991708365100A106A9 /* ByteSwap.h */; };
 		2B7F47A01708365200A106A9 /* CalcTangentsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F459A1708365100A106A9 /* CalcTangentsProcess.cpp */; };
 		2B7F47A11708365200A106A9 /* CalcTangentsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F459A1708365100A106A9 /* CalcTangentsProcess.cpp */; };
 		2B7F47A21708365200A106A9 /* CalcTangentsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F459A1708365100A106A9 /* CalcTangentsProcess.cpp */; };
@@ -131,12 +146,10 @@
 		2B7F47A61708365200A106A9 /* CalcTangentsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F459B1708365100A106A9 /* CalcTangentsProcess.h */; };
 		2B7F47A71708365200A106A9 /* CalcTangentsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F459B1708365100A106A9 /* CalcTangentsProcess.h */; };
 		2B7F47A81708365200A106A9 /* CalcTangentsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F459B1708365100A106A9 /* CalcTangentsProcess.h */; };
-		2B7F47A91708365200A106A9 /* CalcTangentsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F459B1708365100A106A9 /* CalcTangentsProcess.h */; };
 		2B7F47AA1708365200A106A9 /* CInterfaceIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F459C1708365100A106A9 /* CInterfaceIOWrapper.h */; };
 		2B7F47AB1708365200A106A9 /* CInterfaceIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F459C1708365100A106A9 /* CInterfaceIOWrapper.h */; };
 		2B7F47AC1708365200A106A9 /* CInterfaceIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F459C1708365100A106A9 /* CInterfaceIOWrapper.h */; };
 		2B7F47AD1708365200A106A9 /* CInterfaceIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F459C1708365100A106A9 /* CInterfaceIOWrapper.h */; };
-		2B7F47AE1708365200A106A9 /* CInterfaceIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F459C1708365100A106A9 /* CInterfaceIOWrapper.h */; };
 		2B7F47BE1708365200A106A9 /* ColladaExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A11708365100A106A9 /* ColladaExporter.cpp */; };
 		2B7F47BF1708365200A106A9 /* ColladaExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A11708365100A106A9 /* ColladaExporter.cpp */; };
 		2B7F47C01708365200A106A9 /* ColladaExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A11708365100A106A9 /* ColladaExporter.cpp */; };
@@ -146,12 +159,10 @@
 		2B7F47C41708365200A106A9 /* ColladaExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A21708365100A106A9 /* ColladaExporter.h */; };
 		2B7F47C51708365200A106A9 /* ColladaExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A21708365100A106A9 /* ColladaExporter.h */; };
 		2B7F47C61708365200A106A9 /* ColladaExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A21708365100A106A9 /* ColladaExporter.h */; };
-		2B7F47C71708365200A106A9 /* ColladaExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A21708365100A106A9 /* ColladaExporter.h */; };
 		2B7F47C81708365200A106A9 /* ColladaHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A31708365100A106A9 /* ColladaHelper.h */; };
 		2B7F47C91708365200A106A9 /* ColladaHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A31708365100A106A9 /* ColladaHelper.h */; };
 		2B7F47CA1708365200A106A9 /* ColladaHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A31708365100A106A9 /* ColladaHelper.h */; };
 		2B7F47CB1708365200A106A9 /* ColladaHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A31708365100A106A9 /* ColladaHelper.h */; };
-		2B7F47CC1708365200A106A9 /* ColladaHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A31708365100A106A9 /* ColladaHelper.h */; };
 		2B7F47CD1708365200A106A9 /* ColladaLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A41708365100A106A9 /* ColladaLoader.cpp */; };
 		2B7F47CE1708365200A106A9 /* ColladaLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A41708365100A106A9 /* ColladaLoader.cpp */; };
 		2B7F47CF1708365200A106A9 /* ColladaLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A41708365100A106A9 /* ColladaLoader.cpp */; };
@@ -161,7 +172,6 @@
 		2B7F47D31708365200A106A9 /* ColladaLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A51708365100A106A9 /* ColladaLoader.h */; };
 		2B7F47D41708365200A106A9 /* ColladaLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A51708365100A106A9 /* ColladaLoader.h */; };
 		2B7F47D51708365200A106A9 /* ColladaLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A51708365100A106A9 /* ColladaLoader.h */; };
-		2B7F47D61708365200A106A9 /* ColladaLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A51708365100A106A9 /* ColladaLoader.h */; };
 		2B7F47D71708365200A106A9 /* ColladaParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A61708365100A106A9 /* ColladaParser.cpp */; };
 		2B7F47D81708365200A106A9 /* ColladaParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A61708365100A106A9 /* ColladaParser.cpp */; };
 		2B7F47D91708365200A106A9 /* ColladaParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A61708365100A106A9 /* ColladaParser.cpp */; };
@@ -171,7 +181,6 @@
 		2B7F47DD1708365200A106A9 /* ColladaParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A71708365100A106A9 /* ColladaParser.h */; };
 		2B7F47DE1708365200A106A9 /* ColladaParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A71708365100A106A9 /* ColladaParser.h */; };
 		2B7F47DF1708365200A106A9 /* ColladaParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A71708365100A106A9 /* ColladaParser.h */; };
-		2B7F47E01708365200A106A9 /* ColladaParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A71708365100A106A9 /* ColladaParser.h */; };
 		2B7F47E11708365200A106A9 /* ComputeUVMappingProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A81708365100A106A9 /* ComputeUVMappingProcess.cpp */; };
 		2B7F47E21708365200A106A9 /* ComputeUVMappingProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A81708365100A106A9 /* ComputeUVMappingProcess.cpp */; };
 		2B7F47E31708365200A106A9 /* ComputeUVMappingProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45A81708365100A106A9 /* ComputeUVMappingProcess.cpp */; };
@@ -181,7 +190,6 @@
 		2B7F47E71708365200A106A9 /* ComputeUVMappingProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A91708365100A106A9 /* ComputeUVMappingProcess.h */; };
 		2B7F47E81708365200A106A9 /* ComputeUVMappingProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A91708365100A106A9 /* ComputeUVMappingProcess.h */; };
 		2B7F47E91708365200A106A9 /* ComputeUVMappingProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A91708365100A106A9 /* ComputeUVMappingProcess.h */; };
-		2B7F47EA1708365200A106A9 /* ComputeUVMappingProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45A91708365100A106A9 /* ComputeUVMappingProcess.h */; };
 		2B7F47EB1708365200A106A9 /* ConvertToLHProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45AA1708365100A106A9 /* ConvertToLHProcess.cpp */; };
 		2B7F47EC1708365200A106A9 /* ConvertToLHProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45AA1708365100A106A9 /* ConvertToLHProcess.cpp */; };
 		2B7F47ED1708365200A106A9 /* ConvertToLHProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45AA1708365100A106A9 /* ConvertToLHProcess.cpp */; };
@@ -191,7 +199,6 @@
 		2B7F47F11708365200A106A9 /* ConvertToLHProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45AB1708365100A106A9 /* ConvertToLHProcess.h */; };
 		2B7F47F21708365200A106A9 /* ConvertToLHProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45AB1708365100A106A9 /* ConvertToLHProcess.h */; };
 		2B7F47F31708365200A106A9 /* ConvertToLHProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45AB1708365100A106A9 /* ConvertToLHProcess.h */; };
-		2B7F47F41708365200A106A9 /* ConvertToLHProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45AB1708365100A106A9 /* ConvertToLHProcess.h */; };
 		2B7F47FF1708365200A106A9 /* DeboneProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45AE1708365100A106A9 /* DeboneProcess.cpp */; };
 		2B7F48001708365200A106A9 /* DeboneProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45AE1708365100A106A9 /* DeboneProcess.cpp */; };
 		2B7F48011708365200A106A9 /* DeboneProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45AE1708365100A106A9 /* DeboneProcess.cpp */; };
@@ -201,7 +208,6 @@
 		2B7F48051708365200A106A9 /* DeboneProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45AF1708365100A106A9 /* DeboneProcess.h */; };
 		2B7F48061708365200A106A9 /* DeboneProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45AF1708365100A106A9 /* DeboneProcess.h */; };
 		2B7F48071708365200A106A9 /* DeboneProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45AF1708365100A106A9 /* DeboneProcess.h */; };
-		2B7F48081708365200A106A9 /* DeboneProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45AF1708365100A106A9 /* DeboneProcess.h */; };
 		2B7F48091708365200A106A9 /* DefaultIOStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45B01708365100A106A9 /* DefaultIOStream.cpp */; };
 		2B7F480A1708365200A106A9 /* DefaultIOStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45B01708365100A106A9 /* DefaultIOStream.cpp */; };
 		2B7F480B1708365200A106A9 /* DefaultIOStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45B01708365100A106A9 /* DefaultIOStream.cpp */; };
@@ -211,7 +217,6 @@
 		2B7F480F1708365200A106A9 /* DefaultIOStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B11708365100A106A9 /* DefaultIOStream.h */; };
 		2B7F48101708365200A106A9 /* DefaultIOStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B11708365100A106A9 /* DefaultIOStream.h */; };
 		2B7F48111708365200A106A9 /* DefaultIOStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B11708365100A106A9 /* DefaultIOStream.h */; };
-		2B7F48121708365200A106A9 /* DefaultIOStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B11708365100A106A9 /* DefaultIOStream.h */; };
 		2B7F48131708365200A106A9 /* DefaultIOSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45B21708365100A106A9 /* DefaultIOSystem.cpp */; };
 		2B7F48141708365200A106A9 /* DefaultIOSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45B21708365100A106A9 /* DefaultIOSystem.cpp */; };
 		2B7F48151708365200A106A9 /* DefaultIOSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45B21708365100A106A9 /* DefaultIOSystem.cpp */; };
@@ -221,7 +226,6 @@
 		2B7F48191708365200A106A9 /* DefaultIOSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B31708365100A106A9 /* DefaultIOSystem.h */; };
 		2B7F481A1708365200A106A9 /* DefaultIOSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B31708365100A106A9 /* DefaultIOSystem.h */; };
 		2B7F481B1708365200A106A9 /* DefaultIOSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B31708365100A106A9 /* DefaultIOSystem.h */; };
-		2B7F481C1708365200A106A9 /* DefaultIOSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B31708365100A106A9 /* DefaultIOSystem.h */; };
 		2B7F481D1708365200A106A9 /* DefaultLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45B41708365100A106A9 /* DefaultLogger.cpp */; };
 		2B7F481E1708365200A106A9 /* DefaultLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45B41708365100A106A9 /* DefaultLogger.cpp */; };
 		2B7F481F1708365200A106A9 /* DefaultLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45B41708365100A106A9 /* DefaultLogger.cpp */; };
@@ -231,12 +235,10 @@
 		2B7F48231708365200A106A9 /* DefaultProgressHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B51708365100A106A9 /* DefaultProgressHandler.h */; };
 		2B7F48241708365200A106A9 /* DefaultProgressHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B51708365100A106A9 /* DefaultProgressHandler.h */; };
 		2B7F48251708365200A106A9 /* DefaultProgressHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B51708365100A106A9 /* DefaultProgressHandler.h */; };
-		2B7F48261708365200A106A9 /* DefaultProgressHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B51708365100A106A9 /* DefaultProgressHandler.h */; };
 		2B7F48361708365200A106A9 /* Exceptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B91708365100A106A9 /* Exceptional.h */; };
 		2B7F48371708365200A106A9 /* Exceptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B91708365100A106A9 /* Exceptional.h */; };
 		2B7F48381708365200A106A9 /* Exceptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B91708365100A106A9 /* Exceptional.h */; };
 		2B7F48391708365200A106A9 /* Exceptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B91708365100A106A9 /* Exceptional.h */; };
-		2B7F483A1708365200A106A9 /* Exceptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45B91708365100A106A9 /* Exceptional.h */; };
 		2B7F483B1708365200A106A9 /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45BA1708365100A106A9 /* Exporter.cpp */; };
 		2B7F483C1708365200A106A9 /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45BA1708365100A106A9 /* Exporter.cpp */; };
 		2B7F483D1708365200A106A9 /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45BA1708365100A106A9 /* Exporter.cpp */; };
@@ -246,7 +248,6 @@
 		2B7F48411708365200A106A9 /* fast_atof.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45BB1708365100A106A9 /* fast_atof.h */; };
 		2B7F48421708365200A106A9 /* fast_atof.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45BB1708365100A106A9 /* fast_atof.h */; };
 		2B7F48431708365200A106A9 /* fast_atof.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45BB1708365100A106A9 /* fast_atof.h */; };
-		2B7F48441708365200A106A9 /* fast_atof.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45BB1708365100A106A9 /* fast_atof.h */; };
 		2B7F48451708365200A106A9 /* FBXAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45BC1708365100A106A9 /* FBXAnimation.cpp */; };
 		2B7F48461708365200A106A9 /* FBXAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45BC1708365100A106A9 /* FBXAnimation.cpp */; };
 		2B7F48471708365200A106A9 /* FBXAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45BC1708365100A106A9 /* FBXAnimation.cpp */; };
@@ -261,7 +262,6 @@
 		2B7F48501708365200A106A9 /* FBXCompileConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45BE1708365100A106A9 /* FBXCompileConfig.h */; };
 		2B7F48511708365200A106A9 /* FBXCompileConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45BE1708365100A106A9 /* FBXCompileConfig.h */; };
 		2B7F48521708365200A106A9 /* FBXCompileConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45BE1708365100A106A9 /* FBXCompileConfig.h */; };
-		2B7F48531708365200A106A9 /* FBXCompileConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45BE1708365100A106A9 /* FBXCompileConfig.h */; };
 		2B7F48541708365200A106A9 /* FBXConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45BF1708365100A106A9 /* FBXConverter.cpp */; };
 		2B7F48551708365200A106A9 /* FBXConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45BF1708365100A106A9 /* FBXConverter.cpp */; };
 		2B7F48561708365200A106A9 /* FBXConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45BF1708365100A106A9 /* FBXConverter.cpp */; };
@@ -271,7 +271,6 @@
 		2B7F485A1708365200A106A9 /* FBXConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C01708365100A106A9 /* FBXConverter.h */; };
 		2B7F485B1708365200A106A9 /* FBXConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C01708365100A106A9 /* FBXConverter.h */; };
 		2B7F485C1708365200A106A9 /* FBXConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C01708365100A106A9 /* FBXConverter.h */; };
-		2B7F485D1708365200A106A9 /* FBXConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C01708365100A106A9 /* FBXConverter.h */; };
 		2B7F485E1708365200A106A9 /* FBXDeformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C11708365100A106A9 /* FBXDeformer.cpp */; };
 		2B7F485F1708365200A106A9 /* FBXDeformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C11708365100A106A9 /* FBXDeformer.cpp */; };
 		2B7F48601708365200A106A9 /* FBXDeformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C11708365100A106A9 /* FBXDeformer.cpp */; };
@@ -286,7 +285,6 @@
 		2B7F48691708365200A106A9 /* FBXDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C31708365100A106A9 /* FBXDocument.h */; };
 		2B7F486A1708365200A106A9 /* FBXDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C31708365100A106A9 /* FBXDocument.h */; };
 		2B7F486B1708365200A106A9 /* FBXDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C31708365100A106A9 /* FBXDocument.h */; };
-		2B7F486C1708365200A106A9 /* FBXDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C31708365100A106A9 /* FBXDocument.h */; };
 		2B7F486D1708365200A106A9 /* FBXDocumentUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C41708365100A106A9 /* FBXDocumentUtil.cpp */; };
 		2B7F486E1708365200A106A9 /* FBXDocumentUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C41708365100A106A9 /* FBXDocumentUtil.cpp */; };
 		2B7F486F1708365200A106A9 /* FBXDocumentUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C41708365100A106A9 /* FBXDocumentUtil.cpp */; };
@@ -296,7 +294,6 @@
 		2B7F48731708365200A106A9 /* FBXDocumentUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C51708365100A106A9 /* FBXDocumentUtil.h */; };
 		2B7F48741708365200A106A9 /* FBXDocumentUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C51708365100A106A9 /* FBXDocumentUtil.h */; };
 		2B7F48751708365200A106A9 /* FBXDocumentUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C51708365100A106A9 /* FBXDocumentUtil.h */; };
-		2B7F48761708365200A106A9 /* FBXDocumentUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C51708365100A106A9 /* FBXDocumentUtil.h */; };
 		2B7F48771708365200A106A9 /* FBXImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C61708365100A106A9 /* FBXImporter.cpp */; };
 		2B7F48781708365200A106A9 /* FBXImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C61708365100A106A9 /* FBXImporter.cpp */; };
 		2B7F48791708365200A106A9 /* FBXImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C61708365100A106A9 /* FBXImporter.cpp */; };
@@ -306,12 +303,10 @@
 		2B7F487D1708365200A106A9 /* FBXImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C71708365100A106A9 /* FBXImporter.h */; };
 		2B7F487E1708365200A106A9 /* FBXImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C71708365100A106A9 /* FBXImporter.h */; };
 		2B7F487F1708365200A106A9 /* FBXImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C71708365100A106A9 /* FBXImporter.h */; };
-		2B7F48801708365200A106A9 /* FBXImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C71708365100A106A9 /* FBXImporter.h */; };
 		2B7F48811708365200A106A9 /* FBXImportSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C81708365100A106A9 /* FBXImportSettings.h */; };
 		2B7F48821708365200A106A9 /* FBXImportSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C81708365100A106A9 /* FBXImportSettings.h */; };
 		2B7F48831708365200A106A9 /* FBXImportSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C81708365100A106A9 /* FBXImportSettings.h */; };
 		2B7F48841708365200A106A9 /* FBXImportSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C81708365100A106A9 /* FBXImportSettings.h */; };
-		2B7F48851708365200A106A9 /* FBXImportSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45C81708365100A106A9 /* FBXImportSettings.h */; };
 		2B7F48861708365200A106A9 /* FBXMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C91708365100A106A9 /* FBXMaterial.cpp */; };
 		2B7F48871708365200A106A9 /* FBXMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C91708365100A106A9 /* FBXMaterial.cpp */; };
 		2B7F48881708365200A106A9 /* FBXMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45C91708365100A106A9 /* FBXMaterial.cpp */; };
@@ -341,7 +336,6 @@
 		2B7F48A01708365200A106A9 /* FBXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45CE1708365100A106A9 /* FBXParser.h */; };
 		2B7F48A11708365200A106A9 /* FBXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45CE1708365100A106A9 /* FBXParser.h */; };
 		2B7F48A21708365200A106A9 /* FBXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45CE1708365100A106A9 /* FBXParser.h */; };
-		2B7F48A31708365200A106A9 /* FBXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45CE1708365100A106A9 /* FBXParser.h */; };
 		2B7F48A41708365200A106A9 /* FBXProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45CF1708365100A106A9 /* FBXProperties.cpp */; };
 		2B7F48A51708365200A106A9 /* FBXProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45CF1708365100A106A9 /* FBXProperties.cpp */; };
 		2B7F48A61708365200A106A9 /* FBXProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45CF1708365100A106A9 /* FBXProperties.cpp */; };
@@ -351,7 +345,6 @@
 		2B7F48AA1708365200A106A9 /* FBXProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D01708365100A106A9 /* FBXProperties.h */; };
 		2B7F48AB1708365200A106A9 /* FBXProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D01708365100A106A9 /* FBXProperties.h */; };
 		2B7F48AC1708365200A106A9 /* FBXProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D01708365100A106A9 /* FBXProperties.h */; };
-		2B7F48AD1708365200A106A9 /* FBXProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D01708365100A106A9 /* FBXProperties.h */; };
 		2B7F48AE1708365200A106A9 /* FBXTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D11708365100A106A9 /* FBXTokenizer.cpp */; };
 		2B7F48AF1708365200A106A9 /* FBXTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D11708365100A106A9 /* FBXTokenizer.cpp */; };
 		2B7F48B01708365200A106A9 /* FBXTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D11708365100A106A9 /* FBXTokenizer.cpp */; };
@@ -361,7 +354,6 @@
 		2B7F48B41708365200A106A9 /* FBXTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D21708365100A106A9 /* FBXTokenizer.h */; };
 		2B7F48B51708365200A106A9 /* FBXTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D21708365100A106A9 /* FBXTokenizer.h */; };
 		2B7F48B61708365200A106A9 /* FBXTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D21708365100A106A9 /* FBXTokenizer.h */; };
-		2B7F48B71708365200A106A9 /* FBXTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D21708365100A106A9 /* FBXTokenizer.h */; };
 		2B7F48B81708365200A106A9 /* FBXUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D31708365100A106A9 /* FBXUtil.cpp */; };
 		2B7F48B91708365200A106A9 /* FBXUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D31708365100A106A9 /* FBXUtil.cpp */; };
 		2B7F48BA1708365200A106A9 /* FBXUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D31708365100A106A9 /* FBXUtil.cpp */; };
@@ -371,17 +363,14 @@
 		2B7F48BE1708365200A106A9 /* FBXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D41708365100A106A9 /* FBXUtil.h */; };
 		2B7F48BF1708365200A106A9 /* FBXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D41708365100A106A9 /* FBXUtil.h */; };
 		2B7F48C01708365200A106A9 /* FBXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D41708365100A106A9 /* FBXUtil.h */; };
-		2B7F48C11708365200A106A9 /* FBXUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D41708365100A106A9 /* FBXUtil.h */; };
 		2B7F48C21708365200A106A9 /* FileLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D51708365100A106A9 /* FileLogStream.h */; };
 		2B7F48C31708365200A106A9 /* FileLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D51708365100A106A9 /* FileLogStream.h */; };
 		2B7F48C41708365200A106A9 /* FileLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D51708365100A106A9 /* FileLogStream.h */; };
 		2B7F48C51708365200A106A9 /* FileLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D51708365100A106A9 /* FileLogStream.h */; };
-		2B7F48C61708365200A106A9 /* FileLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D51708365100A106A9 /* FileLogStream.h */; };
 		2B7F48C71708365200A106A9 /* FileSystemFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D61708365100A106A9 /* FileSystemFilter.h */; };
 		2B7F48C81708365200A106A9 /* FileSystemFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D61708365100A106A9 /* FileSystemFilter.h */; };
 		2B7F48C91708365200A106A9 /* FileSystemFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D61708365100A106A9 /* FileSystemFilter.h */; };
 		2B7F48CA1708365200A106A9 /* FileSystemFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D61708365100A106A9 /* FileSystemFilter.h */; };
-		2B7F48CB1708365200A106A9 /* FileSystemFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D61708365100A106A9 /* FileSystemFilter.h */; };
 		2B7F48CC1708365200A106A9 /* FindDegenerates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D71708365100A106A9 /* FindDegenerates.cpp */; };
 		2B7F48CD1708365200A106A9 /* FindDegenerates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D71708365100A106A9 /* FindDegenerates.cpp */; };
 		2B7F48CE1708365200A106A9 /* FindDegenerates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D71708365100A106A9 /* FindDegenerates.cpp */; };
@@ -391,7 +380,6 @@
 		2B7F48D21708365200A106A9 /* FindDegenerates.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D81708365100A106A9 /* FindDegenerates.h */; };
 		2B7F48D31708365200A106A9 /* FindDegenerates.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D81708365100A106A9 /* FindDegenerates.h */; };
 		2B7F48D41708365200A106A9 /* FindDegenerates.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D81708365100A106A9 /* FindDegenerates.h */; };
-		2B7F48D51708365200A106A9 /* FindDegenerates.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45D81708365100A106A9 /* FindDegenerates.h */; };
 		2B7F48D61708365200A106A9 /* FindInstancesProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D91708365100A106A9 /* FindInstancesProcess.cpp */; };
 		2B7F48D71708365200A106A9 /* FindInstancesProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D91708365100A106A9 /* FindInstancesProcess.cpp */; };
 		2B7F48D81708365200A106A9 /* FindInstancesProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45D91708365100A106A9 /* FindInstancesProcess.cpp */; };
@@ -401,7 +389,6 @@
 		2B7F48DC1708365200A106A9 /* FindInstancesProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DA1708365100A106A9 /* FindInstancesProcess.h */; };
 		2B7F48DD1708365200A106A9 /* FindInstancesProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DA1708365100A106A9 /* FindInstancesProcess.h */; };
 		2B7F48DE1708365200A106A9 /* FindInstancesProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DA1708365100A106A9 /* FindInstancesProcess.h */; };
-		2B7F48DF1708365200A106A9 /* FindInstancesProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DA1708365100A106A9 /* FindInstancesProcess.h */; };
 		2B7F48E01708365200A106A9 /* FindInvalidDataProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45DB1708365100A106A9 /* FindInvalidDataProcess.cpp */; };
 		2B7F48E11708365200A106A9 /* FindInvalidDataProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45DB1708365100A106A9 /* FindInvalidDataProcess.cpp */; };
 		2B7F48E21708365200A106A9 /* FindInvalidDataProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45DB1708365100A106A9 /* FindInvalidDataProcess.cpp */; };
@@ -411,7 +398,6 @@
 		2B7F48E61708365200A106A9 /* FindInvalidDataProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DC1708365100A106A9 /* FindInvalidDataProcess.h */; };
 		2B7F48E71708365200A106A9 /* FindInvalidDataProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DC1708365100A106A9 /* FindInvalidDataProcess.h */; };
 		2B7F48E81708365200A106A9 /* FindInvalidDataProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DC1708365100A106A9 /* FindInvalidDataProcess.h */; };
-		2B7F48E91708365200A106A9 /* FindInvalidDataProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DC1708365100A106A9 /* FindInvalidDataProcess.h */; };
 		2B7F48EA1708365200A106A9 /* FixNormalsStep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45DD1708365100A106A9 /* FixNormalsStep.cpp */; };
 		2B7F48EB1708365200A106A9 /* FixNormalsStep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45DD1708365100A106A9 /* FixNormalsStep.cpp */; };
 		2B7F48EC1708365200A106A9 /* FixNormalsStep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45DD1708365100A106A9 /* FixNormalsStep.cpp */; };
@@ -421,12 +407,10 @@
 		2B7F48F01708365200A106A9 /* FixNormalsStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DE1708365100A106A9 /* FixNormalsStep.h */; };
 		2B7F48F11708365200A106A9 /* FixNormalsStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DE1708365100A106A9 /* FixNormalsStep.h */; };
 		2B7F48F21708365200A106A9 /* FixNormalsStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DE1708365100A106A9 /* FixNormalsStep.h */; };
-		2B7F48F31708365200A106A9 /* FixNormalsStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DE1708365100A106A9 /* FixNormalsStep.h */; };
 		2B7F48F41708365200A106A9 /* GenericProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DF1708365100A106A9 /* GenericProperty.h */; };
 		2B7F48F51708365200A106A9 /* GenericProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DF1708365100A106A9 /* GenericProperty.h */; };
 		2B7F48F61708365200A106A9 /* GenericProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DF1708365100A106A9 /* GenericProperty.h */; };
 		2B7F48F71708365200A106A9 /* GenericProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DF1708365100A106A9 /* GenericProperty.h */; };
-		2B7F48F81708365200A106A9 /* GenericProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45DF1708365100A106A9 /* GenericProperty.h */; };
 		2B7F48F91708365200A106A9 /* GenFaceNormalsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45E01708365100A106A9 /* GenFaceNormalsProcess.cpp */; };
 		2B7F48FA1708365200A106A9 /* GenFaceNormalsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45E01708365100A106A9 /* GenFaceNormalsProcess.cpp */; };
 		2B7F48FB1708365200A106A9 /* GenFaceNormalsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45E01708365100A106A9 /* GenFaceNormalsProcess.cpp */; };
@@ -436,7 +420,6 @@
 		2B7F48FF1708365200A106A9 /* GenFaceNormalsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E11708365100A106A9 /* GenFaceNormalsProcess.h */; };
 		2B7F49001708365200A106A9 /* GenFaceNormalsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E11708365100A106A9 /* GenFaceNormalsProcess.h */; };
 		2B7F49011708365200A106A9 /* GenFaceNormalsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E11708365100A106A9 /* GenFaceNormalsProcess.h */; };
-		2B7F49021708365200A106A9 /* GenFaceNormalsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E11708365100A106A9 /* GenFaceNormalsProcess.h */; };
 		2B7F49031708365200A106A9 /* GenVertexNormalsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45E21708365100A106A9 /* GenVertexNormalsProcess.cpp */; };
 		2B7F49041708365200A106A9 /* GenVertexNormalsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45E21708365100A106A9 /* GenVertexNormalsProcess.cpp */; };
 		2B7F49051708365200A106A9 /* GenVertexNormalsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45E21708365100A106A9 /* GenVertexNormalsProcess.cpp */; };
@@ -446,12 +429,10 @@
 		2B7F49091708365200A106A9 /* GenVertexNormalsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E31708365100A106A9 /* GenVertexNormalsProcess.h */; };
 		2B7F490A1708365200A106A9 /* GenVertexNormalsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E31708365100A106A9 /* GenVertexNormalsProcess.h */; };
 		2B7F490B1708365200A106A9 /* GenVertexNormalsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E31708365100A106A9 /* GenVertexNormalsProcess.h */; };
-		2B7F490C1708365200A106A9 /* GenVertexNormalsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E31708365100A106A9 /* GenVertexNormalsProcess.h */; };
 		2B7F49121708365200A106A9 /* Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E51708365100A106A9 /* Hash.h */; };
 		2B7F49131708365200A106A9 /* Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E51708365100A106A9 /* Hash.h */; };
 		2B7F49141708365200A106A9 /* Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E51708365100A106A9 /* Hash.h */; };
 		2B7F49151708365200A106A9 /* Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E51708365100A106A9 /* Hash.h */; };
-		2B7F49161708365200A106A9 /* Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45E51708365100A106A9 /* Hash.h */; };
 		2B7F49261708365200A106A9 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45E91708365100A106A9 /* IFCBoolean.cpp */; };
 		2B7F49271708365200A106A9 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45E91708365100A106A9 /* IFCBoolean.cpp */; };
 		2B7F49281708365200A106A9 /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45E91708365100A106A9 /* IFCBoolean.cpp */; };
@@ -476,7 +457,6 @@
 		2B7F493B1708365200A106A9 /* IFCLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45ED1708365100A106A9 /* IFCLoader.h */; };
 		2B7F493C1708365200A106A9 /* IFCLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45ED1708365100A106A9 /* IFCLoader.h */; };
 		2B7F493D1708365200A106A9 /* IFCLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45ED1708365100A106A9 /* IFCLoader.h */; };
-		2B7F493E1708365200A106A9 /* IFCLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45ED1708365100A106A9 /* IFCLoader.h */; };
 		2B7F493F1708365200A106A9 /* IFCMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45EE1708365100A106A9 /* IFCMaterial.cpp */; };
 		2B7F49401708365200A106A9 /* IFCMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45EE1708365100A106A9 /* IFCMaterial.cpp */; };
 		2B7F49411708365200A106A9 /* IFCMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45EE1708365100A106A9 /* IFCMaterial.cpp */; };
@@ -501,7 +481,6 @@
 		2B7F49541708365200A106A9 /* IFCReaderGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F21708365100A106A9 /* IFCReaderGen.h */; };
 		2B7F49551708365200A106A9 /* IFCReaderGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F21708365100A106A9 /* IFCReaderGen.h */; };
 		2B7F49561708365200A106A9 /* IFCReaderGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F21708365100A106A9 /* IFCReaderGen.h */; };
-		2B7F49571708365200A106A9 /* IFCReaderGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F21708365100A106A9 /* IFCReaderGen.h */; };
 		2B7F49581708365200A106A9 /* IFCUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45F31708365100A106A9 /* IFCUtil.cpp */; };
 		2B7F49591708365200A106A9 /* IFCUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45F31708365100A106A9 /* IFCUtil.cpp */; };
 		2B7F495A1708365200A106A9 /* IFCUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45F31708365100A106A9 /* IFCUtil.cpp */; };
@@ -511,12 +490,10 @@
 		2B7F495E1708365200A106A9 /* IFCUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F41708365100A106A9 /* IFCUtil.h */; };
 		2B7F495F1708365200A106A9 /* IFCUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F41708365100A106A9 /* IFCUtil.h */; };
 		2B7F49601708365200A106A9 /* IFCUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F41708365100A106A9 /* IFCUtil.h */; };
-		2B7F49611708365200A106A9 /* IFCUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F41708365100A106A9 /* IFCUtil.h */; };
 		2B7F49621708365200A106A9 /* IFF.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F51708365100A106A9 /* IFF.h */; };
 		2B7F49631708365200A106A9 /* IFF.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F51708365100A106A9 /* IFF.h */; };
 		2B7F49641708365200A106A9 /* IFF.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F51708365100A106A9 /* IFF.h */; };
 		2B7F49651708365200A106A9 /* IFF.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F51708365100A106A9 /* IFF.h */; };
-		2B7F49661708365200A106A9 /* IFF.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F51708365100A106A9 /* IFF.h */; };
 		2B7F49671708365200A106A9 /* Importer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45F61708365100A106A9 /* Importer.cpp */; };
 		2B7F49681708365200A106A9 /* Importer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45F61708365100A106A9 /* Importer.cpp */; };
 		2B7F49691708365200A106A9 /* Importer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45F61708365100A106A9 /* Importer.cpp */; };
@@ -526,7 +503,6 @@
 		2B7F496D1708365200A106A9 /* Importer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F71708365100A106A9 /* Importer.h */; };
 		2B7F496E1708365200A106A9 /* Importer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F71708365100A106A9 /* Importer.h */; };
 		2B7F496F1708365200A106A9 /* Importer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F71708365100A106A9 /* Importer.h */; };
-		2B7F49701708365200A106A9 /* Importer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45F71708365100A106A9 /* Importer.h */; };
 		2B7F49711708365200A106A9 /* ImporterRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45F81708365100A106A9 /* ImporterRegistry.cpp */; };
 		2B7F49721708365200A106A9 /* ImporterRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45F81708365100A106A9 /* ImporterRegistry.cpp */; };
 		2B7F49731708365200A106A9 /* ImporterRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F45F81708365100A106A9 /* ImporterRegistry.cpp */; };
@@ -541,7 +517,6 @@
 		2B7F497C1708365200A106A9 /* ImproveCacheLocality.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45FA1708365100A106A9 /* ImproveCacheLocality.h */; };
 		2B7F497D1708365200A106A9 /* ImproveCacheLocality.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45FA1708365100A106A9 /* ImproveCacheLocality.h */; };
 		2B7F497E1708365200A106A9 /* ImproveCacheLocality.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45FA1708365100A106A9 /* ImproveCacheLocality.h */; };
-		2B7F497F1708365200A106A9 /* ImproveCacheLocality.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F45FA1708365100A106A9 /* ImproveCacheLocality.h */; };
 		2B7F49A31708365200A106A9 /* JoinVerticesProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46021708365100A106A9 /* JoinVerticesProcess.cpp */; };
 		2B7F49A41708365200A106A9 /* JoinVerticesProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46021708365100A106A9 /* JoinVerticesProcess.cpp */; };
 		2B7F49A51708365200A106A9 /* JoinVerticesProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46021708365100A106A9 /* JoinVerticesProcess.cpp */; };
@@ -551,7 +526,6 @@
 		2B7F49A91708365200A106A9 /* JoinVerticesProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46031708365100A106A9 /* JoinVerticesProcess.h */; };
 		2B7F49AA1708365200A106A9 /* JoinVerticesProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46031708365100A106A9 /* JoinVerticesProcess.h */; };
 		2B7F49AB1708365200A106A9 /* JoinVerticesProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46031708365100A106A9 /* JoinVerticesProcess.h */; };
-		2B7F49AC1708365200A106A9 /* JoinVerticesProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46031708365100A106A9 /* JoinVerticesProcess.h */; };
 		2B7F49AD1708365200A106A9 /* LimitBoneWeightsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46041708365100A106A9 /* LimitBoneWeightsProcess.cpp */; };
 		2B7F49AE1708365200A106A9 /* LimitBoneWeightsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46041708365100A106A9 /* LimitBoneWeightsProcess.cpp */; };
 		2B7F49AF1708365200A106A9 /* LimitBoneWeightsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46041708365100A106A9 /* LimitBoneWeightsProcess.cpp */; };
@@ -561,17 +535,14 @@
 		2B7F49B31708365200A106A9 /* LimitBoneWeightsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46051708365100A106A9 /* LimitBoneWeightsProcess.h */; };
 		2B7F49B41708365200A106A9 /* LimitBoneWeightsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46051708365100A106A9 /* LimitBoneWeightsProcess.h */; };
 		2B7F49B51708365200A106A9 /* LimitBoneWeightsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46051708365100A106A9 /* LimitBoneWeightsProcess.h */; };
-		2B7F49B61708365200A106A9 /* LimitBoneWeightsProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46051708365100A106A9 /* LimitBoneWeightsProcess.h */; };
 		2B7F49B71708365200A106A9 /* LineSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46061708365100A106A9 /* LineSplitter.h */; };
 		2B7F49B81708365200A106A9 /* LineSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46061708365100A106A9 /* LineSplitter.h */; };
 		2B7F49B91708365200A106A9 /* LineSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46061708365100A106A9 /* LineSplitter.h */; };
 		2B7F49BA1708365200A106A9 /* LineSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46061708365100A106A9 /* LineSplitter.h */; };
-		2B7F49BB1708365200A106A9 /* LineSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46061708365100A106A9 /* LineSplitter.h */; };
 		2B7F49BC1708365200A106A9 /* LogAux.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46071708365100A106A9 /* LogAux.h */; };
 		2B7F49BD1708365200A106A9 /* LogAux.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46071708365100A106A9 /* LogAux.h */; };
 		2B7F49BE1708365200A106A9 /* LogAux.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46071708365100A106A9 /* LogAux.h */; };
 		2B7F49BF1708365200A106A9 /* LogAux.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46071708365100A106A9 /* LogAux.h */; };
-		2B7F49C01708365200A106A9 /* LogAux.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46071708365100A106A9 /* LogAux.h */; };
 		2B7F49F81708365200A106A9 /* MakeVerboseFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46141708365200A106A9 /* MakeVerboseFormat.cpp */; };
 		2B7F49F91708365200A106A9 /* MakeVerboseFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46141708365200A106A9 /* MakeVerboseFormat.cpp */; };
 		2B7F49FA1708365200A106A9 /* MakeVerboseFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46141708365200A106A9 /* MakeVerboseFormat.cpp */; };
@@ -581,7 +552,6 @@
 		2B7F49FE1708365200A106A9 /* MakeVerboseFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46151708365200A106A9 /* MakeVerboseFormat.h */; };
 		2B7F49FF1708365200A106A9 /* MakeVerboseFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46151708365200A106A9 /* MakeVerboseFormat.h */; };
 		2B7F4A001708365200A106A9 /* MakeVerboseFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46151708365200A106A9 /* MakeVerboseFormat.h */; };
-		2B7F4A011708365200A106A9 /* MakeVerboseFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46151708365200A106A9 /* MakeVerboseFormat.h */; };
 		2B7F4A021708365200A106A9 /* MaterialSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46161708365200A106A9 /* MaterialSystem.cpp */; };
 		2B7F4A031708365200A106A9 /* MaterialSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46161708365200A106A9 /* MaterialSystem.cpp */; };
 		2B7F4A041708365200A106A9 /* MaterialSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46161708365200A106A9 /* MaterialSystem.cpp */; };
@@ -591,17 +561,14 @@
 		2B7F4A081708365200A106A9 /* MaterialSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46171708365200A106A9 /* MaterialSystem.h */; };
 		2B7F4A091708365200A106A9 /* MaterialSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46171708365200A106A9 /* MaterialSystem.h */; };
 		2B7F4A0A1708365200A106A9 /* MaterialSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46171708365200A106A9 /* MaterialSystem.h */; };
-		2B7F4A0B1708365200A106A9 /* MaterialSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46171708365200A106A9 /* MaterialSystem.h */; };
 		2B7F4A2F1708365200A106A9 /* MD4FileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F461F1708365200A106A9 /* MD4FileData.h */; };
 		2B7F4A301708365200A106A9 /* MD4FileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F461F1708365200A106A9 /* MD4FileData.h */; };
 		2B7F4A311708365200A106A9 /* MD4FileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F461F1708365200A106A9 /* MD4FileData.h */; };
 		2B7F4A321708365200A106A9 /* MD4FileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F461F1708365200A106A9 /* MD4FileData.h */; };
-		2B7F4A331708365200A106A9 /* MD4FileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F461F1708365200A106A9 /* MD4FileData.h */; };
 		2B7F4A751708365200A106A9 /* MemoryIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F462D1708365200A106A9 /* MemoryIOWrapper.h */; };
 		2B7F4A761708365200A106A9 /* MemoryIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F462D1708365200A106A9 /* MemoryIOWrapper.h */; };
 		2B7F4A771708365200A106A9 /* MemoryIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F462D1708365200A106A9 /* MemoryIOWrapper.h */; };
 		2B7F4A781708365200A106A9 /* MemoryIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F462D1708365200A106A9 /* MemoryIOWrapper.h */; };
-		2B7F4A791708365200A106A9 /* MemoryIOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F462D1708365200A106A9 /* MemoryIOWrapper.h */; };
 		2B7F4A981708365200A106A9 /* ObjExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46341708365200A106A9 /* ObjExporter.cpp */; };
 		2B7F4A991708365200A106A9 /* ObjExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46341708365200A106A9 /* ObjExporter.cpp */; };
 		2B7F4A9A1708365200A106A9 /* ObjExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46341708365200A106A9 /* ObjExporter.cpp */; };
@@ -611,12 +578,10 @@
 		2B7F4A9E1708365200A106A9 /* ObjExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46351708365200A106A9 /* ObjExporter.h */; };
 		2B7F4A9F1708365200A106A9 /* ObjExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46351708365200A106A9 /* ObjExporter.h */; };
 		2B7F4AA01708365200A106A9 /* ObjExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46351708365200A106A9 /* ObjExporter.h */; };
-		2B7F4AA11708365200A106A9 /* ObjExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46351708365200A106A9 /* ObjExporter.h */; };
 		2B7F4AA21708365200A106A9 /* ObjFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46361708365200A106A9 /* ObjFileData.h */; };
 		2B7F4AA31708365200A106A9 /* ObjFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46361708365200A106A9 /* ObjFileData.h */; };
 		2B7F4AA41708365200A106A9 /* ObjFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46361708365200A106A9 /* ObjFileData.h */; };
 		2B7F4AA51708365200A106A9 /* ObjFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46361708365200A106A9 /* ObjFileData.h */; };
-		2B7F4AA61708365200A106A9 /* ObjFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46361708365200A106A9 /* ObjFileData.h */; };
 		2B7F4AA71708365200A106A9 /* ObjFileImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46371708365200A106A9 /* ObjFileImporter.cpp */; };
 		2B7F4AA81708365200A106A9 /* ObjFileImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46371708365200A106A9 /* ObjFileImporter.cpp */; };
 		2B7F4AA91708365200A106A9 /* ObjFileImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46371708365200A106A9 /* ObjFileImporter.cpp */; };
@@ -626,7 +591,6 @@
 		2B7F4AAD1708365200A106A9 /* ObjFileImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46381708365200A106A9 /* ObjFileImporter.h */; };
 		2B7F4AAE1708365200A106A9 /* ObjFileImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46381708365200A106A9 /* ObjFileImporter.h */; };
 		2B7F4AAF1708365200A106A9 /* ObjFileImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46381708365200A106A9 /* ObjFileImporter.h */; };
-		2B7F4AB01708365200A106A9 /* ObjFileImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46381708365200A106A9 /* ObjFileImporter.h */; };
 		2B7F4AB11708365200A106A9 /* ObjFileMtlImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46391708365200A106A9 /* ObjFileMtlImporter.cpp */; };
 		2B7F4AB21708365200A106A9 /* ObjFileMtlImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46391708365200A106A9 /* ObjFileMtlImporter.cpp */; };
 		2B7F4AB31708365200A106A9 /* ObjFileMtlImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46391708365200A106A9 /* ObjFileMtlImporter.cpp */; };
@@ -636,7 +600,6 @@
 		2B7F4AB71708365200A106A9 /* ObjFileMtlImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463A1708365200A106A9 /* ObjFileMtlImporter.h */; };
 		2B7F4AB81708365200A106A9 /* ObjFileMtlImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463A1708365200A106A9 /* ObjFileMtlImporter.h */; };
 		2B7F4AB91708365200A106A9 /* ObjFileMtlImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463A1708365200A106A9 /* ObjFileMtlImporter.h */; };
-		2B7F4ABA1708365200A106A9 /* ObjFileMtlImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463A1708365200A106A9 /* ObjFileMtlImporter.h */; };
 		2B7F4ABB1708365200A106A9 /* ObjFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F463B1708365200A106A9 /* ObjFileParser.cpp */; };
 		2B7F4ABC1708365200A106A9 /* ObjFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F463B1708365200A106A9 /* ObjFileParser.cpp */; };
 		2B7F4ABD1708365200A106A9 /* ObjFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F463B1708365200A106A9 /* ObjFileParser.cpp */; };
@@ -646,12 +609,10 @@
 		2B7F4AC11708365200A106A9 /* ObjFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463C1708365200A106A9 /* ObjFileParser.h */; };
 		2B7F4AC21708365200A106A9 /* ObjFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463C1708365200A106A9 /* ObjFileParser.h */; };
 		2B7F4AC31708365200A106A9 /* ObjFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463C1708365200A106A9 /* ObjFileParser.h */; };
-		2B7F4AC41708365200A106A9 /* ObjFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463C1708365200A106A9 /* ObjFileParser.h */; };
 		2B7F4AC51708365200A106A9 /* ObjTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463D1708365200A106A9 /* ObjTools.h */; };
 		2B7F4AC61708365200A106A9 /* ObjTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463D1708365200A106A9 /* ObjTools.h */; };
 		2B7F4AC71708365200A106A9 /* ObjTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463D1708365200A106A9 /* ObjTools.h */; };
 		2B7F4AC81708365200A106A9 /* ObjTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463D1708365200A106A9 /* ObjTools.h */; };
-		2B7F4AC91708365200A106A9 /* ObjTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F463D1708365200A106A9 /* ObjTools.h */; };
 		2B7F4AF21708365200A106A9 /* OptimizeGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46461708365200A106A9 /* OptimizeGraph.cpp */; };
 		2B7F4AF31708365200A106A9 /* OptimizeGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46461708365200A106A9 /* OptimizeGraph.cpp */; };
 		2B7F4AF41708365200A106A9 /* OptimizeGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46461708365200A106A9 /* OptimizeGraph.cpp */; };
@@ -661,7 +622,6 @@
 		2B7F4AF81708365200A106A9 /* OptimizeGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46471708365200A106A9 /* OptimizeGraph.h */; };
 		2B7F4AF91708365200A106A9 /* OptimizeGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46471708365200A106A9 /* OptimizeGraph.h */; };
 		2B7F4AFA1708365200A106A9 /* OptimizeGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46471708365200A106A9 /* OptimizeGraph.h */; };
-		2B7F4AFB1708365200A106A9 /* OptimizeGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46471708365200A106A9 /* OptimizeGraph.h */; };
 		2B7F4AFC1708365200A106A9 /* OptimizeMeshes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46481708365200A106A9 /* OptimizeMeshes.cpp */; };
 		2B7F4AFD1708365200A106A9 /* OptimizeMeshes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46481708365200A106A9 /* OptimizeMeshes.cpp */; };
 		2B7F4AFE1708365200A106A9 /* OptimizeMeshes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46481708365200A106A9 /* OptimizeMeshes.cpp */; };
@@ -671,17 +631,14 @@
 		2B7F4B021708365200A106A9 /* OptimizeMeshes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46491708365200A106A9 /* OptimizeMeshes.h */; };
 		2B7F4B031708365200A106A9 /* OptimizeMeshes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46491708365200A106A9 /* OptimizeMeshes.h */; };
 		2B7F4B041708365200A106A9 /* OptimizeMeshes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46491708365200A106A9 /* OptimizeMeshes.h */; };
-		2B7F4B051708365200A106A9 /* OptimizeMeshes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46491708365200A106A9 /* OptimizeMeshes.h */; };
 		2B7F4B061708365200A106A9 /* ParsingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F464A1708365200A106A9 /* ParsingUtils.h */; };
 		2B7F4B071708365200A106A9 /* ParsingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F464A1708365200A106A9 /* ParsingUtils.h */; };
 		2B7F4B081708365200A106A9 /* ParsingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F464A1708365200A106A9 /* ParsingUtils.h */; };
 		2B7F4B091708365200A106A9 /* ParsingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F464A1708365200A106A9 /* ParsingUtils.h */; };
-		2B7F4B0A1708365200A106A9 /* ParsingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F464A1708365200A106A9 /* ParsingUtils.h */; };
 		2B7F4B291708365200A106A9 /* PolyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46511708365200A106A9 /* PolyTools.h */; };
 		2B7F4B2A1708365200A106A9 /* PolyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46511708365200A106A9 /* PolyTools.h */; };
 		2B7F4B2B1708365200A106A9 /* PolyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46511708365200A106A9 /* PolyTools.h */; };
 		2B7F4B2C1708365200A106A9 /* PolyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46511708365200A106A9 /* PolyTools.h */; };
-		2B7F4B2D1708365200A106A9 /* PolyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46511708365200A106A9 /* PolyTools.h */; };
 		2B7F4B2E1708365200A106A9 /* PostStepRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46521708365200A106A9 /* PostStepRegistry.cpp */; };
 		2B7F4B2F1708365200A106A9 /* PostStepRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46521708365200A106A9 /* PostStepRegistry.cpp */; };
 		2B7F4B301708365200A106A9 /* PostStepRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46521708365200A106A9 /* PostStepRegistry.cpp */; };
@@ -696,7 +653,6 @@
 		2B7F4B391708365200A106A9 /* PretransformVertices.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46541708365200A106A9 /* PretransformVertices.h */; };
 		2B7F4B3A1708365200A106A9 /* PretransformVertices.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46541708365200A106A9 /* PretransformVertices.h */; };
 		2B7F4B3B1708365200A106A9 /* PretransformVertices.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46541708365200A106A9 /* PretransformVertices.h */; };
-		2B7F4B3C1708365200A106A9 /* PretransformVertices.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46541708365200A106A9 /* PretransformVertices.h */; };
 		2B7F4B3D1708365200A106A9 /* ProcessHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46551708365200A106A9 /* ProcessHelper.cpp */; };
 		2B7F4B3E1708365200A106A9 /* ProcessHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46551708365200A106A9 /* ProcessHelper.cpp */; };
 		2B7F4B3F1708365200A106A9 /* ProcessHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46551708365200A106A9 /* ProcessHelper.cpp */; };
@@ -706,22 +662,18 @@
 		2B7F4B431708365200A106A9 /* ProcessHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46561708365200A106A9 /* ProcessHelper.h */; };
 		2B7F4B441708365200A106A9 /* ProcessHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46561708365200A106A9 /* ProcessHelper.h */; };
 		2B7F4B451708365200A106A9 /* ProcessHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46561708365200A106A9 /* ProcessHelper.h */; };
-		2B7F4B461708365200A106A9 /* ProcessHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46561708365200A106A9 /* ProcessHelper.h */; };
 		2B7F4B471708365200A106A9 /* Profiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46571708365200A106A9 /* Profiler.h */; };
 		2B7F4B481708365200A106A9 /* Profiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46571708365200A106A9 /* Profiler.h */; };
 		2B7F4B491708365200A106A9 /* Profiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46571708365200A106A9 /* Profiler.h */; };
 		2B7F4B4A1708365200A106A9 /* Profiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46571708365200A106A9 /* Profiler.h */; };
-		2B7F4B4B1708365200A106A9 /* Profiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46571708365200A106A9 /* Profiler.h */; };
 		2B7F4B4C1708365200A106A9 /* pstdint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46581708365200A106A9 /* pstdint.h */; };
 		2B7F4B4D1708365200A106A9 /* pstdint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46581708365200A106A9 /* pstdint.h */; };
 		2B7F4B4E1708365200A106A9 /* pstdint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46581708365200A106A9 /* pstdint.h */; };
 		2B7F4B4F1708365200A106A9 /* pstdint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46581708365200A106A9 /* pstdint.h */; };
-		2B7F4B501708365200A106A9 /* pstdint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46581708365200A106A9 /* pstdint.h */; };
 		2B7F4B7E1708365200A106A9 /* qnan.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46621708365200A106A9 /* qnan.h */; };
 		2B7F4B7F1708365200A106A9 /* qnan.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46621708365200A106A9 /* qnan.h */; };
 		2B7F4B801708365200A106A9 /* qnan.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46621708365200A106A9 /* qnan.h */; };
 		2B7F4B811708365200A106A9 /* qnan.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46621708365200A106A9 /* qnan.h */; };
-		2B7F4B821708365200A106A9 /* qnan.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46621708365200A106A9 /* qnan.h */; };
 		2B7F4B8D1708365200A106A9 /* RemoveComments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46651708365200A106A9 /* RemoveComments.cpp */; };
 		2B7F4B8E1708365200A106A9 /* RemoveComments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46651708365200A106A9 /* RemoveComments.cpp */; };
 		2B7F4B8F1708365200A106A9 /* RemoveComments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46651708365200A106A9 /* RemoveComments.cpp */; };
@@ -731,7 +683,6 @@
 		2B7F4B931708365200A106A9 /* RemoveComments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46661708365200A106A9 /* RemoveComments.h */; };
 		2B7F4B941708365200A106A9 /* RemoveComments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46661708365200A106A9 /* RemoveComments.h */; };
 		2B7F4B951708365200A106A9 /* RemoveComments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46661708365200A106A9 /* RemoveComments.h */; };
-		2B7F4B961708365200A106A9 /* RemoveComments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46661708365200A106A9 /* RemoveComments.h */; };
 		2B7F4B971708365200A106A9 /* RemoveRedundantMaterials.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46671708365200A106A9 /* RemoveRedundantMaterials.cpp */; };
 		2B7F4B981708365200A106A9 /* RemoveRedundantMaterials.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46671708365200A106A9 /* RemoveRedundantMaterials.cpp */; };
 		2B7F4B991708365200A106A9 /* RemoveRedundantMaterials.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46671708365200A106A9 /* RemoveRedundantMaterials.cpp */; };
@@ -741,7 +692,6 @@
 		2B7F4B9D1708365200A106A9 /* RemoveRedundantMaterials.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46681708365200A106A9 /* RemoveRedundantMaterials.h */; };
 		2B7F4B9E1708365200A106A9 /* RemoveRedundantMaterials.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46681708365200A106A9 /* RemoveRedundantMaterials.h */; };
 		2B7F4B9F1708365200A106A9 /* RemoveRedundantMaterials.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46681708365200A106A9 /* RemoveRedundantMaterials.h */; };
-		2B7F4BA01708365200A106A9 /* RemoveRedundantMaterials.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46681708365200A106A9 /* RemoveRedundantMaterials.h */; };
 		2B7F4BA11708365200A106A9 /* RemoveVCProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46691708365200A106A9 /* RemoveVCProcess.cpp */; };
 		2B7F4BA21708365200A106A9 /* RemoveVCProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46691708365200A106A9 /* RemoveVCProcess.cpp */; };
 		2B7F4BA31708365200A106A9 /* RemoveVCProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46691708365200A106A9 /* RemoveVCProcess.cpp */; };
@@ -751,7 +701,6 @@
 		2B7F4BA71708365200A106A9 /* RemoveVCProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F466A1708365200A106A9 /* RemoveVCProcess.h */; };
 		2B7F4BA81708365200A106A9 /* RemoveVCProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F466A1708365200A106A9 /* RemoveVCProcess.h */; };
 		2B7F4BA91708365200A106A9 /* RemoveVCProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F466A1708365200A106A9 /* RemoveVCProcess.h */; };
-		2B7F4BAA1708365200A106A9 /* RemoveVCProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F466A1708365200A106A9 /* RemoveVCProcess.h */; };
 		2B7F4BB01708365200A106A9 /* SceneCombiner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F466E1708365200A106A9 /* SceneCombiner.cpp */; };
 		2B7F4BB11708365200A106A9 /* SceneCombiner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F466E1708365200A106A9 /* SceneCombiner.cpp */; };
 		2B7F4BB21708365200A106A9 /* SceneCombiner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F466E1708365200A106A9 /* SceneCombiner.cpp */; };
@@ -761,7 +710,6 @@
 		2B7F4BB61708365200A106A9 /* SceneCombiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F466F1708365200A106A9 /* SceneCombiner.h */; };
 		2B7F4BB71708365200A106A9 /* SceneCombiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F466F1708365200A106A9 /* SceneCombiner.h */; };
 		2B7F4BB81708365200A106A9 /* SceneCombiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F466F1708365200A106A9 /* SceneCombiner.h */; };
-		2B7F4BB91708365200A106A9 /* SceneCombiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F466F1708365200A106A9 /* SceneCombiner.h */; };
 		2B7F4BBA1708365200A106A9 /* ScenePreprocessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46701708365200A106A9 /* ScenePreprocessor.cpp */; };
 		2B7F4BBB1708365200A106A9 /* ScenePreprocessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46701708365200A106A9 /* ScenePreprocessor.cpp */; };
 		2B7F4BBC1708365200A106A9 /* ScenePreprocessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46701708365200A106A9 /* ScenePreprocessor.cpp */; };
@@ -771,12 +719,10 @@
 		2B7F4BC01708365200A106A9 /* ScenePreprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46711708365200A106A9 /* ScenePreprocessor.h */; };
 		2B7F4BC11708365200A106A9 /* ScenePreprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46711708365200A106A9 /* ScenePreprocessor.h */; };
 		2B7F4BC21708365200A106A9 /* ScenePreprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46711708365200A106A9 /* ScenePreprocessor.h */; };
-		2B7F4BC31708365200A106A9 /* ScenePreprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46711708365200A106A9 /* ScenePreprocessor.h */; };
 		2B7F4BC41708365200A106A9 /* ScenePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46721708365200A106A9 /* ScenePrivate.h */; };
 		2B7F4BC51708365200A106A9 /* ScenePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46721708365200A106A9 /* ScenePrivate.h */; };
 		2B7F4BC61708365200A106A9 /* ScenePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46721708365200A106A9 /* ScenePrivate.h */; };
 		2B7F4BC71708365200A106A9 /* ScenePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46721708365200A106A9 /* ScenePrivate.h */; };
-		2B7F4BC81708365200A106A9 /* ScenePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46721708365200A106A9 /* ScenePrivate.h */; };
 		2B7F4BC91708365200A106A9 /* SGSpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46731708365200A106A9 /* SGSpatialSort.cpp */; };
 		2B7F4BCA1708365200A106A9 /* SGSpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46731708365200A106A9 /* SGSpatialSort.cpp */; };
 		2B7F4BCB1708365200A106A9 /* SGSpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46731708365200A106A9 /* SGSpatialSort.cpp */; };
@@ -786,7 +732,6 @@
 		2B7F4BCF1708365200A106A9 /* SGSpatialSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46741708365200A106A9 /* SGSpatialSort.h */; };
 		2B7F4BD01708365200A106A9 /* SGSpatialSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46741708365200A106A9 /* SGSpatialSort.h */; };
 		2B7F4BD11708365200A106A9 /* SGSpatialSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46741708365200A106A9 /* SGSpatialSort.h */; };
-		2B7F4BD21708365200A106A9 /* SGSpatialSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46741708365200A106A9 /* SGSpatialSort.h */; };
 		2B7F4BD31708365200A106A9 /* SkeletonMeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46751708365200A106A9 /* SkeletonMeshBuilder.cpp */; };
 		2B7F4BD41708365200A106A9 /* SkeletonMeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46751708365200A106A9 /* SkeletonMeshBuilder.cpp */; };
 		2B7F4BD51708365200A106A9 /* SkeletonMeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46751708365200A106A9 /* SkeletonMeshBuilder.cpp */; };
@@ -796,12 +741,10 @@
 		2B7F4BD91708365200A106A9 /* SkeletonMeshBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46761708365200A106A9 /* SkeletonMeshBuilder.h */; };
 		2B7F4BDA1708365200A106A9 /* SkeletonMeshBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46761708365200A106A9 /* SkeletonMeshBuilder.h */; };
 		2B7F4BDB1708365200A106A9 /* SkeletonMeshBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46761708365200A106A9 /* SkeletonMeshBuilder.h */; };
-		2B7F4BDC1708365200A106A9 /* SkeletonMeshBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46761708365200A106A9 /* SkeletonMeshBuilder.h */; };
 		2B7F4BE71708365200A106A9 /* SmoothingGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46791708365200A106A9 /* SmoothingGroups.h */; };
 		2B7F4BE81708365200A106A9 /* SmoothingGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46791708365200A106A9 /* SmoothingGroups.h */; };
 		2B7F4BE91708365200A106A9 /* SmoothingGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46791708365200A106A9 /* SmoothingGroups.h */; };
 		2B7F4BEA1708365200A106A9 /* SmoothingGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46791708365200A106A9 /* SmoothingGroups.h */; };
-		2B7F4BEB1708365200A106A9 /* SmoothingGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46791708365200A106A9 /* SmoothingGroups.h */; };
 		2B7F4BEC1708365200A106A9 /* SortByPTypeProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F467B1708365200A106A9 /* SortByPTypeProcess.cpp */; };
 		2B7F4BED1708365200A106A9 /* SortByPTypeProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F467B1708365200A106A9 /* SortByPTypeProcess.cpp */; };
 		2B7F4BEE1708365200A106A9 /* SortByPTypeProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F467B1708365200A106A9 /* SortByPTypeProcess.cpp */; };
@@ -811,7 +754,6 @@
 		2B7F4BF21708365200A106A9 /* SortByPTypeProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F467C1708365200A106A9 /* SortByPTypeProcess.h */; };
 		2B7F4BF31708365200A106A9 /* SortByPTypeProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F467C1708365200A106A9 /* SortByPTypeProcess.h */; };
 		2B7F4BF41708365200A106A9 /* SortByPTypeProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F467C1708365200A106A9 /* SortByPTypeProcess.h */; };
-		2B7F4BF51708365200A106A9 /* SortByPTypeProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F467C1708365200A106A9 /* SortByPTypeProcess.h */; };
 		2B7F4BF61708365200A106A9 /* SpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F467D1708365200A106A9 /* SpatialSort.cpp */; };
 		2B7F4BF71708365200A106A9 /* SpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F467D1708365200A106A9 /* SpatialSort.cpp */; };
 		2B7F4BF81708365200A106A9 /* SpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F467D1708365200A106A9 /* SpatialSort.cpp */; };
@@ -821,7 +763,6 @@
 		2B7F4BFC1708365200A106A9 /* SpatialSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F467E1708365200A106A9 /* SpatialSort.h */; };
 		2B7F4BFD1708365200A106A9 /* SpatialSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F467E1708365200A106A9 /* SpatialSort.h */; };
 		2B7F4BFE1708365200A106A9 /* SpatialSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F467E1708365200A106A9 /* SpatialSort.h */; };
-		2B7F4BFF1708365200A106A9 /* SpatialSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F467E1708365200A106A9 /* SpatialSort.h */; };
 		2B7F4C001708365200A106A9 /* SplitByBoneCountProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F467F1708365200A106A9 /* SplitByBoneCountProcess.cpp */; };
 		2B7F4C011708365200A106A9 /* SplitByBoneCountProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F467F1708365200A106A9 /* SplitByBoneCountProcess.cpp */; };
 		2B7F4C021708365200A106A9 /* SplitByBoneCountProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F467F1708365200A106A9 /* SplitByBoneCountProcess.cpp */; };
@@ -831,7 +772,6 @@
 		2B7F4C061708365200A106A9 /* SplitByBoneCountProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46801708365200A106A9 /* SplitByBoneCountProcess.h */; };
 		2B7F4C071708365200A106A9 /* SplitByBoneCountProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46801708365200A106A9 /* SplitByBoneCountProcess.h */; };
 		2B7F4C081708365200A106A9 /* SplitByBoneCountProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46801708365200A106A9 /* SplitByBoneCountProcess.h */; };
-		2B7F4C091708365200A106A9 /* SplitByBoneCountProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46801708365200A106A9 /* SplitByBoneCountProcess.h */; };
 		2B7F4C0A1708365200A106A9 /* SplitLargeMeshes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46811708365200A106A9 /* SplitLargeMeshes.cpp */; };
 		2B7F4C0B1708365200A106A9 /* SplitLargeMeshes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46811708365200A106A9 /* SplitLargeMeshes.cpp */; };
 		2B7F4C0C1708365200A106A9 /* SplitLargeMeshes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46811708365200A106A9 /* SplitLargeMeshes.cpp */; };
@@ -841,7 +781,6 @@
 		2B7F4C101708365200A106A9 /* SplitLargeMeshes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46821708365200A106A9 /* SplitLargeMeshes.h */; };
 		2B7F4C111708365200A106A9 /* SplitLargeMeshes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46821708365200A106A9 /* SplitLargeMeshes.h */; };
 		2B7F4C121708365200A106A9 /* SplitLargeMeshes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46821708365200A106A9 /* SplitLargeMeshes.h */; };
-		2B7F4C131708365200A106A9 /* SplitLargeMeshes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46821708365200A106A9 /* SplitLargeMeshes.h */; };
 		2B7F4C141708365200A106A9 /* StandardShapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46831708365200A106A9 /* StandardShapes.cpp */; };
 		2B7F4C151708365200A106A9 /* StandardShapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46831708365200A106A9 /* StandardShapes.cpp */; };
 		2B7F4C161708365200A106A9 /* StandardShapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46831708365200A106A9 /* StandardShapes.cpp */; };
@@ -851,17 +790,14 @@
 		2B7F4C1A1708365200A106A9 /* StandardShapes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46841708365200A106A9 /* StandardShapes.h */; };
 		2B7F4C1B1708365200A106A9 /* StandardShapes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46841708365200A106A9 /* StandardShapes.h */; };
 		2B7F4C1C1708365200A106A9 /* StandardShapes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46841708365200A106A9 /* StandardShapes.h */; };
-		2B7F4C1D1708365200A106A9 /* StandardShapes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46841708365200A106A9 /* StandardShapes.h */; };
 		2B7F4C1E1708365200A106A9 /* StdOStreamLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46851708365200A106A9 /* StdOStreamLogStream.h */; };
 		2B7F4C1F1708365200A106A9 /* StdOStreamLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46851708365200A106A9 /* StdOStreamLogStream.h */; };
 		2B7F4C201708365200A106A9 /* StdOStreamLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46851708365200A106A9 /* StdOStreamLogStream.h */; };
 		2B7F4C211708365200A106A9 /* StdOStreamLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46851708365200A106A9 /* StdOStreamLogStream.h */; };
-		2B7F4C221708365200A106A9 /* StdOStreamLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46851708365200A106A9 /* StdOStreamLogStream.h */; };
 		2B7F4C231708365200A106A9 /* STEPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46861708365200A106A9 /* STEPFile.h */; };
 		2B7F4C241708365200A106A9 /* STEPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46861708365200A106A9 /* STEPFile.h */; };
 		2B7F4C251708365200A106A9 /* STEPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46861708365200A106A9 /* STEPFile.h */; };
 		2B7F4C261708365200A106A9 /* STEPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46861708365200A106A9 /* STEPFile.h */; };
-		2B7F4C271708365200A106A9 /* STEPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46861708365200A106A9 /* STEPFile.h */; };
 		2B7F4C281708365200A106A9 /* STEPFileEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46871708365200A106A9 /* STEPFileEncoding.cpp */; };
 		2B7F4C291708365200A106A9 /* STEPFileEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46871708365200A106A9 /* STEPFileEncoding.cpp */; };
 		2B7F4C2A1708365200A106A9 /* STEPFileEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46871708365200A106A9 /* STEPFileEncoding.cpp */; };
@@ -871,7 +807,6 @@
 		2B7F4C2E1708365200A106A9 /* STEPFileEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46881708365200A106A9 /* STEPFileEncoding.h */; };
 		2B7F4C2F1708365200A106A9 /* STEPFileEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46881708365200A106A9 /* STEPFileEncoding.h */; };
 		2B7F4C301708365200A106A9 /* STEPFileEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46881708365200A106A9 /* STEPFileEncoding.h */; };
-		2B7F4C311708365200A106A9 /* STEPFileEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46881708365200A106A9 /* STEPFileEncoding.h */; };
 		2B7F4C321708365200A106A9 /* STEPFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46891708365200A106A9 /* STEPFileReader.cpp */; };
 		2B7F4C331708365200A106A9 /* STEPFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46891708365200A106A9 /* STEPFileReader.cpp */; };
 		2B7F4C341708365200A106A9 /* STEPFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46891708365200A106A9 /* STEPFileReader.cpp */; };
@@ -881,7 +816,6 @@
 		2B7F4C381708365200A106A9 /* STEPFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468A1708365200A106A9 /* STEPFileReader.h */; };
 		2B7F4C391708365200A106A9 /* STEPFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468A1708365200A106A9 /* STEPFileReader.h */; };
 		2B7F4C3A1708365200A106A9 /* STEPFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468A1708365200A106A9 /* STEPFileReader.h */; };
-		2B7F4C3B1708365200A106A9 /* STEPFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468A1708365200A106A9 /* STEPFileReader.h */; };
 		2B7F4C3C1708365200A106A9 /* STLExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F468B1708365200A106A9 /* STLExporter.cpp */; };
 		2B7F4C3D1708365200A106A9 /* STLExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F468B1708365200A106A9 /* STLExporter.cpp */; };
 		2B7F4C3E1708365200A106A9 /* STLExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F468B1708365200A106A9 /* STLExporter.cpp */; };
@@ -891,7 +825,6 @@
 		2B7F4C421708365200A106A9 /* STLExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468C1708365200A106A9 /* STLExporter.h */; };
 		2B7F4C431708365200A106A9 /* STLExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468C1708365200A106A9 /* STLExporter.h */; };
 		2B7F4C441708365200A106A9 /* STLExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468C1708365200A106A9 /* STLExporter.h */; };
-		2B7F4C451708365200A106A9 /* STLExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468C1708365200A106A9 /* STLExporter.h */; };
 		2B7F4C461708365200A106A9 /* STLLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F468D1708365200A106A9 /* STLLoader.cpp */; };
 		2B7F4C471708365200A106A9 /* STLLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F468D1708365200A106A9 /* STLLoader.cpp */; };
 		2B7F4C481708365200A106A9 /* STLLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F468D1708365200A106A9 /* STLLoader.cpp */; };
@@ -901,17 +834,14 @@
 		2B7F4C4C1708365200A106A9 /* STLLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468E1708365200A106A9 /* STLLoader.h */; };
 		2B7F4C4D1708365200A106A9 /* STLLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468E1708365200A106A9 /* STLLoader.h */; };
 		2B7F4C4E1708365200A106A9 /* STLLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468E1708365200A106A9 /* STLLoader.h */; };
-		2B7F4C4F1708365200A106A9 /* STLLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468E1708365200A106A9 /* STLLoader.h */; };
 		2B7F4C501708365200A106A9 /* StreamReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468F1708365200A106A9 /* StreamReader.h */; };
 		2B7F4C511708365200A106A9 /* StreamReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468F1708365200A106A9 /* StreamReader.h */; };
 		2B7F4C521708365200A106A9 /* StreamReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468F1708365200A106A9 /* StreamReader.h */; };
 		2B7F4C531708365200A106A9 /* StreamReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468F1708365200A106A9 /* StreamReader.h */; };
-		2B7F4C541708365200A106A9 /* StreamReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F468F1708365200A106A9 /* StreamReader.h */; };
 		2B7F4C551708365200A106A9 /* StringComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46901708365200A106A9 /* StringComparison.h */; };
 		2B7F4C561708365200A106A9 /* StringComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46901708365200A106A9 /* StringComparison.h */; };
 		2B7F4C571708365200A106A9 /* StringComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46901708365200A106A9 /* StringComparison.h */; };
 		2B7F4C581708365200A106A9 /* StringComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46901708365200A106A9 /* StringComparison.h */; };
-		2B7F4C591708365200A106A9 /* StringComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46901708365200A106A9 /* StringComparison.h */; };
 		2B7F4C5A1708365200A106A9 /* Subdivision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46911708365200A106A9 /* Subdivision.cpp */; };
 		2B7F4C5B1708365200A106A9 /* Subdivision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46911708365200A106A9 /* Subdivision.cpp */; };
 		2B7F4C5C1708365200A106A9 /* Subdivision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46911708365200A106A9 /* Subdivision.cpp */; };
@@ -921,7 +851,6 @@
 		2B7F4C601708365200A106A9 /* Subdivision.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46921708365200A106A9 /* Subdivision.h */; };
 		2B7F4C611708365200A106A9 /* Subdivision.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46921708365200A106A9 /* Subdivision.h */; };
 		2B7F4C621708365200A106A9 /* Subdivision.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46921708365200A106A9 /* Subdivision.h */; };
-		2B7F4C631708365200A106A9 /* Subdivision.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46921708365200A106A9 /* Subdivision.h */; };
 		2B7F4C641708365200A106A9 /* TargetAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46931708365200A106A9 /* TargetAnimation.cpp */; };
 		2B7F4C651708365200A106A9 /* TargetAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46931708365200A106A9 /* TargetAnimation.cpp */; };
 		2B7F4C661708365200A106A9 /* TargetAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46931708365200A106A9 /* TargetAnimation.cpp */; };
@@ -931,7 +860,6 @@
 		2B7F4C6A1708365200A106A9 /* TargetAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46941708365200A106A9 /* TargetAnimation.h */; };
 		2B7F4C6B1708365200A106A9 /* TargetAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46941708365200A106A9 /* TargetAnimation.h */; };
 		2B7F4C6C1708365200A106A9 /* TargetAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46941708365200A106A9 /* TargetAnimation.h */; };
-		2B7F4C6D1708365200A106A9 /* TargetAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46941708365200A106A9 /* TargetAnimation.h */; };
 		2B7F4C781708365200A106A9 /* TextureTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46971708365200A106A9 /* TextureTransform.cpp */; };
 		2B7F4C791708365200A106A9 /* TextureTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46971708365200A106A9 /* TextureTransform.cpp */; };
 		2B7F4C7A1708365200A106A9 /* TextureTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46971708365200A106A9 /* TextureTransform.cpp */; };
@@ -941,12 +869,10 @@
 		2B7F4C7E1708365200A106A9 /* TextureTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46981708365200A106A9 /* TextureTransform.h */; };
 		2B7F4C7F1708365200A106A9 /* TextureTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46981708365200A106A9 /* TextureTransform.h */; };
 		2B7F4C801708365200A106A9 /* TextureTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46981708365200A106A9 /* TextureTransform.h */; };
-		2B7F4C811708365200A106A9 /* TextureTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46981708365200A106A9 /* TextureTransform.h */; };
 		2B7F4C821708365200A106A9 /* TinyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46991708365200A106A9 /* TinyFormatter.h */; };
 		2B7F4C831708365200A106A9 /* TinyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46991708365200A106A9 /* TinyFormatter.h */; };
 		2B7F4C841708365200A106A9 /* TinyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46991708365200A106A9 /* TinyFormatter.h */; };
 		2B7F4C851708365200A106A9 /* TinyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46991708365200A106A9 /* TinyFormatter.h */; };
-		2B7F4C861708365200A106A9 /* TinyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46991708365200A106A9 /* TinyFormatter.h */; };
 		2B7F4C871708365200A106A9 /* TriangulateProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F469A1708365200A106A9 /* TriangulateProcess.cpp */; };
 		2B7F4C881708365200A106A9 /* TriangulateProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F469A1708365200A106A9 /* TriangulateProcess.cpp */; };
 		2B7F4C891708365200A106A9 /* TriangulateProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F469A1708365200A106A9 /* TriangulateProcess.cpp */; };
@@ -956,7 +882,6 @@
 		2B7F4C8D1708365200A106A9 /* TriangulateProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F469B1708365200A106A9 /* TriangulateProcess.h */; };
 		2B7F4C8E1708365200A106A9 /* TriangulateProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F469B1708365200A106A9 /* TriangulateProcess.h */; };
 		2B7F4C8F1708365200A106A9 /* TriangulateProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F469B1708365200A106A9 /* TriangulateProcess.h */; };
-		2B7F4C901708365200A106A9 /* TriangulateProcess.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F469B1708365200A106A9 /* TriangulateProcess.h */; };
 		2B7F4C9B1708365200A106A9 /* ValidateDataStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F469E1708365200A106A9 /* ValidateDataStructure.cpp */; };
 		2B7F4C9C1708365200A106A9 /* ValidateDataStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F469E1708365200A106A9 /* ValidateDataStructure.cpp */; };
 		2B7F4C9D1708365200A106A9 /* ValidateDataStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F469E1708365200A106A9 /* ValidateDataStructure.cpp */; };
@@ -966,12 +891,10 @@
 		2B7F4CA11708365200A106A9 /* ValidateDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F469F1708365200A106A9 /* ValidateDataStructure.h */; };
 		2B7F4CA21708365200A106A9 /* ValidateDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F469F1708365200A106A9 /* ValidateDataStructure.h */; };
 		2B7F4CA31708365200A106A9 /* ValidateDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F469F1708365200A106A9 /* ValidateDataStructure.h */; };
-		2B7F4CA41708365200A106A9 /* ValidateDataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F469F1708365200A106A9 /* ValidateDataStructure.h */; };
 		2B7F4CA51708365200A106A9 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A01708365200A106A9 /* Vertex.h */; };
 		2B7F4CA61708365200A106A9 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A01708365200A106A9 /* Vertex.h */; };
 		2B7F4CA71708365200A106A9 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A01708365200A106A9 /* Vertex.h */; };
 		2B7F4CA81708365200A106A9 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A01708365200A106A9 /* Vertex.h */; };
-		2B7F4CA91708365200A106A9 /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A01708365200A106A9 /* Vertex.h */; };
 		2B7F4CAA1708365200A106A9 /* VertexTriangleAdjacency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46A11708365200A106A9 /* VertexTriangleAdjacency.cpp */; };
 		2B7F4CAB1708365200A106A9 /* VertexTriangleAdjacency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46A11708365200A106A9 /* VertexTriangleAdjacency.cpp */; };
 		2B7F4CAC1708365200A106A9 /* VertexTriangleAdjacency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F46A11708365200A106A9 /* VertexTriangleAdjacency.cpp */; };
@@ -981,12 +904,10 @@
 		2B7F4CB01708365200A106A9 /* VertexTriangleAdjacency.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A21708365200A106A9 /* VertexTriangleAdjacency.h */; };
 		2B7F4CB11708365200A106A9 /* VertexTriangleAdjacency.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A21708365200A106A9 /* VertexTriangleAdjacency.h */; };
 		2B7F4CB21708365200A106A9 /* VertexTriangleAdjacency.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A21708365200A106A9 /* VertexTriangleAdjacency.h */; };
-		2B7F4CB31708365200A106A9 /* VertexTriangleAdjacency.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A21708365200A106A9 /* VertexTriangleAdjacency.h */; };
 		2B7F4CB41708365200A106A9 /* Win32DebugLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A31708365200A106A9 /* Win32DebugLogStream.h */; };
 		2B7F4CB51708365200A106A9 /* Win32DebugLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A31708365200A106A9 /* Win32DebugLogStream.h */; };
 		2B7F4CB61708365200A106A9 /* Win32DebugLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A31708365200A106A9 /* Win32DebugLogStream.h */; };
 		2B7F4CB71708365200A106A9 /* Win32DebugLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A31708365200A106A9 /* Win32DebugLogStream.h */; };
-		2B7F4CB81708365200A106A9 /* Win32DebugLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A31708365200A106A9 /* Win32DebugLogStream.h */; };
 		2BA44E11170862D800C78A66 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA44E10170862D800C78A66 /* libstdc++.dylib */; };
 		2BA44E12170862DE00C78A66 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA44E10170862D800C78A66 /* libstdc++.dylib */; };
 		2BA44E13170862E400C78A66 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA44E10170862D800C78A66 /* libstdc++.dylib */; };
@@ -1381,134 +1302,6 @@
 		8E8DEE91127E2B78005EF64D /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE59127E2B78005EF64D /* ioapi.h */; };
 		8E8DEE92127E2B78005EF64D /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E8DEE5A127E2B78005EF64D /* unzip.c */; };
 		8E8DEE93127E2B78005EF64D /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE5B127E2B78005EF64D /* unzip.h */; };
-		B91974D1163AEA54009C397B /* 3DSHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45A880E4B716800207D74 /* 3DSHelper.h */; };
-		B91974D2163AEA54009C397B /* 3DSLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45A8A0E4B716800207D74 /* 3DSLoader.h */; };
-		B91974D3163AEA54009C397B /* ASELoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45A8F0E4B716800207D74 /* ASELoader.h */; };
-		B91974D4163AEA54009C397B /* ASEParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45A910E4B716800207D74 /* ASEParser.h */; };
-		B91974E0163AEA54009C397B /* HalfLifeFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AA90E4B716800207D74 /* HalfLifeFileData.h */; };
-		B91974E1163AEA54009C397B /* HMPLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AAC0E4B716800207D74 /* HMPLoader.h */; };
-		B91974E6163AEA54009C397B /* MD2FileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AB80E4B716800207D74 /* MD2FileData.h */; };
-		B91974E7163AEA54009C397B /* MD2Loader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45ABA0E4B716800207D74 /* MD2Loader.h */; };
-		B91974E8163AEA54009C397B /* MD2NormalTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45ABB0E4B716800207D74 /* MD2NormalTable.h */; };
-		B91974E9163AEA54009C397B /* MD3FileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45ABC0E4B716800207D74 /* MD3FileData.h */; };
-		B91974EA163AEA54009C397B /* MD3Loader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45ABE0E4B716800207D74 /* MD3Loader.h */; };
-		B91974EB163AEA54009C397B /* MD5Loader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AC30E4B716800207D74 /* MD5Loader.h */; };
-		B91974EC163AEA54009C397B /* MD5Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AC50E4B716800207D74 /* MD5Parser.h */; };
-		B91974ED163AEA54009C397B /* MDLDefaultColorMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AC60E4B716800207D74 /* MDLDefaultColorMap.h */; };
-		B91974EE163AEA54009C397B /* MDLFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AC70E4B716800207D74 /* MDLFileData.h */; };
-		B91974EF163AEA54009C397B /* MDLLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AC90E4B716800207D74 /* MDLLoader.h */; };
-		B91974F6163AEA54009C397B /* PlyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AD50E4B716800207D74 /* PlyLoader.h */; };
-		B91974F7163AEA54009C397B /* PlyParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AD70E4B716800207D74 /* PlyParser.h */; };
-		B91974FC163AEA54009C397B /* SMDLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AE30E4B716800207D74 /* SMDLoader.h */; };
-		B9197506163AEA54009C397B /* XFileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AF40E4B716800207D74 /* XFileHelper.h */; };
-		B9197507163AEA54009C397B /* XFileImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AF60E4B716800207D74 /* XFileImporter.h */; };
-		B9197508163AEA54009C397B /* XFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF45AF80E4B716800207D74 /* XFileParser.h */; };
-		B9197509163AEA54009C397B /* MDCFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3AB0E50D67A00606590 /* MDCFileData.h */; };
-		B919750A163AEA54009C397B /* MDCLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3AD0E50D67A00606590 /* MDCLoader.h */; };
-		B919750B163AEA54009C397B /* MDCNormalTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3AE0E50D67A00606590 /* MDCNormalTable.h */; };
-		B919750D163AEA54009C397B /* LWOFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3B70E50D6DB00606590 /* LWOFileData.h */; };
-		B919750E163AEA54009C397B /* LWOLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3B90E50D6DB00606590 /* LWOLoader.h */; };
-		B919750F163AEA54009C397B /* HMPFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3C50E50D77900606590 /* HMPFileData.h */; };
-		B9197512163AEA54009C397B /* ACLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BAFD10F5DD87000124155 /* ACLoader.h */; };
-		B9197513163AEA54009C397B /* IRRLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BAFDA0F5DD90800124155 /* IRRLoader.h */; };
-		B9197514163AEA54009C397B /* IRRMeshLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BAFDC0F5DD90800124155 /* IRRMeshLoader.h */; };
-		B9197515163AEA54009C397B /* IRRShared.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BAFDE0F5DD90800124155 /* IRRShared.h */; };
-		B9197519163AEA54009C397B /* NFFLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BAFF50F5DD96100124155 /* NFFLoader.h */; };
-		B919751B163AEA54009C397B /* Q3DLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BB0070F5DD9DD00124155 /* Q3DLoader.h */; };
-		B919751C163AEA54009C397B /* BVHLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BB00C0F5DD9F400124155 /* BVHLoader.h */; };
-		B919751D163AEA54009C397B /* OFFLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BB0130F5DDA1400124155 /* OFFLoader.h */; };
-		B919751E163AEA54009C397B /* RawLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BB01B0F5DDA4400124155 /* RawLoader.h */; };
-		B919751F163AEA54009C397B /* DXFLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BB0210F5DDA5700124155 /* DXFLoader.h */; };
-		B9197520163AEA54009C397B /* TerragenLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BB02F0F5DDAB500124155 /* TerragenLoader.h */; };
-		B9197521163AEA54009C397B /* irrXMLWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BB0360F5DDB1B00124155 /* irrXMLWrapper.h */; };
-		B919752D163AEA54009C397B /* B3DImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = F90BB0870F5DDE0700124155 /* B3DImporter.h */; };
-		B9197535163AEA54009C397B /* CSMLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7411B14F11416D5E00BCD793 /* CSMLoader.h */; };
-		B9197536163AEA54009C397B /* LWSLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7411B15A11416DDD00BCD793 /* LWSLoader.h */; };
-		B9197537163AEA54009C397B /* LWOAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7411B16411416DF400BCD793 /* LWOAnimation.h */; };
-		B9197538163AEA54009C397B /* MS3DLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7411B17111416E2500BCD793 /* MS3DLoader.h */; };
-		B9197539163AEA54009C397B /* UnrealLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7411B18C11416EBC00BCD793 /* UnrealLoader.h */; };
-		B9197545163AEA54009C397B /* BlenderDNA.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C9BB4A11ACBB1000AF885C /* BlenderDNA.h */; };
-		B9197546163AEA54009C397B /* BlenderLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C9BB4D11ACBB1000AF885C /* BlenderLoader.h */; };
-		B9197547163AEA54009C397B /* BlenderScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C9BB4F11ACBB1000AF885C /* BlenderScene.h */; };
-		B9197548163AEA54009C397B /* BlenderSceneGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C9BB5011ACBB1000AF885C /* BlenderSceneGen.h */; };
-		B919754D163AEA54009C397B /* AssimpPCH.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C9BB8711ACBB9900AF885C /* AssimpPCH.h */; };
-		B919754E163AEA54009C397B /* COBLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C9BB9411ACBBBC00AF885C /* COBLoader.h */; };
-		B919754F163AEA54009C397B /* COBScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C9BB9511ACBBBC00AF885C /* COBScene.h */; };
-		B9197550163AEA54009C397B /* revision.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C9BBB311ACBC2600AF885C /* revision.h */; };
-		B9197555163AEA54009C397B /* Q3BSPFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7ABBA1127E0F1A00512ED1 /* Q3BSPFileData.h */; };
-		B9197556163AEA54009C397B /* Q3BSPFileImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7ABBA3127E0F1A00512ED1 /* Q3BSPFileImporter.h */; };
-		B9197557163AEA54009C397B /* Q3BSPFileParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7ABBA5127E0F1A00512ED1 /* Q3BSPFileParser.h */; };
-		B9197558163AEA54009C397B /* Q3BSPZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7ABBA7127E0F1A00512ED1 /* Q3BSPZipArchive.h */; };
-		B9197559163AEA54009C397B /* NDOLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7ABBC5127E0F2A00512ED1 /* NDOLoader.h */; };
-		B919755A163AEA54009C397B /* BlenderIntermediate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7ABBCE127E0F3800512ED1 /* BlenderIntermediate.h */; };
-		B919755B163AEA54009C397B /* BlenderModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7ABBD0127E0F3800512ED1 /* BlenderModifier.h */; };
-		B9197560163AEA54009C397B /* ConvertUTF.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE4C127E2B78005EF64D /* ConvertUTF.h */; };
-		B9197561163AEA54009C397B /* CXMLReaderImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE4F127E2B78005EF64D /* CXMLReaderImpl.h */; };
-		B9197562163AEA54009C397B /* heapsort.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE50127E2B78005EF64D /* heapsort.h */; };
-		B9197563163AEA54009C397B /* irrArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE51127E2B78005EF64D /* irrArray.h */; };
-		B9197564163AEA54009C397B /* irrString.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE52127E2B78005EF64D /* irrString.h */; };
-		B9197565163AEA54009C397B /* irrTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE53127E2B78005EF64D /* irrTypes.h */; };
-		B9197566163AEA54009C397B /* irrXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE55127E2B78005EF64D /* irrXML.h */; };
-		B9197567163AEA54009C397B /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE57127E2B78005EF64D /* crypt.h */; };
-		B9197568163AEA54009C397B /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE59127E2B78005EF64D /* ioapi.h */; };
-		B9197569163AEA54009C397B /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8DEE5B127E2B78005EF64D /* unzip.h */; };
-		B919756A163AEA54009C397B /* anim.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B751543268400E63FFE /* anim.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919756B163AEA54009C397B /* camera.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B771543268400E63FFE /* camera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919756C163AEA54009C397B /* cexport.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B781543268400E63FFE /* cexport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919756D163AEA54009C397B /* cfileio.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B791543268400E63FFE /* cfileio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919756E163AEA54009C397B /* cimport.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B7A1543268400E63FFE /* cimport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919756F163AEA54009C397B /* color4.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B7B1543268400E63FFE /* color4.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197570163AEA54009C397B /* poppack1.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B7E1543268400E63FFE /* poppack1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197571163AEA54009C397B /* pushpack1.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B7F1543268400E63FFE /* pushpack1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197572163AEA54009C397B /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B801543268400E63FFE /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197573163AEA54009C397B /* DefaultLogger.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B811543268400E63FFE /* DefaultLogger.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197574163AEA54009C397B /* defs.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B821543268400E63FFE /* defs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197575163AEA54009C397B /* Exporter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B831543268400E63FFE /* Exporter.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197576163AEA54009C397B /* Importer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B841543268400E63FFE /* Importer.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197577163AEA54009C397B /* importerdesc.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B851543268400E63FFE /* importerdesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197578163AEA54009C397B /* IOStream.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B861543268400E63FFE /* IOStream.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197579163AEA54009C397B /* IOSystem.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B871543268400E63FFE /* IOSystem.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919757A163AEA54009C397B /* light.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B881543268400E63FFE /* light.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919757B163AEA54009C397B /* Logger.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B891543268400E63FFE /* Logger.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919757C163AEA54009C397B /* LogStream.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B8A1543268400E63FFE /* LogStream.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919757D163AEA54009C397B /* material.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B8B1543268400E63FFE /* material.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919757E163AEA54009C397B /* matrix3x3.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B8D1543268400E63FFE /* matrix3x3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919757F163AEA54009C397B /* matrix4x4.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B8F1543268400E63FFE /* matrix4x4.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197580163AEA54009C397B /* mesh.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B911543268400E63FFE /* mesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197581163AEA54009C397B /* NullLogger.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B921543268400E63FFE /* NullLogger.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197582163AEA54009C397B /* postprocess.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B931543268400E63FFE /* postprocess.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197583163AEA54009C397B /* ProgressHandler.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B941543268400E63FFE /* ProgressHandler.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197584163AEA54009C397B /* quaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B951543268400E63FFE /* quaternion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197585163AEA54009C397B /* scene.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B971543268400E63FFE /* scene.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197586163AEA54009C397B /* texture.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B981543268400E63FFE /* texture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197587163AEA54009C397B /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B991543268400E63FFE /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197588163AEA54009C397B /* vector2.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B9A1543268400E63FFE /* vector2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9197589163AEA54009C397B /* vector3.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B9C1543268400E63FFE /* vector3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919758A163AEA54009C397B /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8B9E1543268400E63FFE /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B919758B163AEA54009C397B /* OgreImporter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8C36154328B600E63FFE /* OgreImporter.hpp */; };
-		B919758C163AEA54009C397B /* OgreXmlHelper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8C3A154328B600E63FFE /* OgreXmlHelper.hpp */; };
-		B9197596163AEA54009C397B /* PlyExporter.h in Headers */ = {isa = PBXBuildFile; fileRef = F99A9F3115436269000682F3 /* PlyExporter.h */; };
-		B919759C163AEA54009C397B /* crc32.h in Headers */ = {isa = PBXBuildFile; fileRef = F960704B154366AB004D91DD /* crc32.h */; };
-		B919759D163AEA54009C397B /* deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = F960704D154366AB004D91DD /* deflate.h */; };
-		B919759E163AEA54009C397B /* inffast.h in Headers */ = {isa = PBXBuildFile; fileRef = F960704F154366AB004D91DD /* inffast.h */; };
-		B919759F163AEA54009C397B /* inffixed.h in Headers */ = {isa = PBXBuildFile; fileRef = F9607050154366AB004D91DD /* inffixed.h */; };
-		B91975A0163AEA54009C397B /* inflate.h in Headers */ = {isa = PBXBuildFile; fileRef = F9607052154366AB004D91DD /* inflate.h */; };
-		B91975A1163AEA54009C397B /* inftrees.h in Headers */ = {isa = PBXBuildFile; fileRef = F9607054154366AB004D91DD /* inftrees.h */; };
-		B91975A2163AEA54009C397B /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = F9607057154366AB004D91DD /* trees.h */; };
-		B91975A3163AEA54009C397B /* zconf.h in Headers */ = {isa = PBXBuildFile; fileRef = F9607058154366AB004D91DD /* zconf.h */; };
-		B91975A4163AEA54009C397B /* zconf.in.h in Headers */ = {isa = PBXBuildFile; fileRef = F9607059154366AB004D91DD /* zconf.in.h */; };
-		B91975A5163AEA54009C397B /* zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = F960705A154366AB004D91DD /* zlib.h */; };
-		B91975A6163AEA54009C397B /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = F960705C154366AB004D91DD /* zutil.h */; };
-		B91975A7163AEA54009C397B /* XGLLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F96070B6154366ED004D91DD /* XGLLoader.h */; };
-		B91975A8163AEA54009C397B /* clipper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F96070C61543673B004D91DD /* clipper.hpp */; };
-		B91975A9163AEA54009C397B /* shapes.h in Headers */ = {isa = PBXBuildFile; fileRef = F96070D31543675E004D91DD /* shapes.h */; };
-		B91975AA163AEA54009C397B /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = F96070D41543675E004D91DD /* utils.h */; };
-		B91975AB163AEA54009C397B /* poly2tri.h in Headers */ = {isa = PBXBuildFile; fileRef = F96070D51543675E004D91DD /* poly2tri.h */; };
-		B91975AC163AEA54009C397B /* advancing_front.h in Headers */ = {isa = PBXBuildFile; fileRef = F96070D81543675E004D91DD /* advancing_front.h */; };
-		B91975AD163AEA54009C397B /* cdt.h in Headers */ = {isa = PBXBuildFile; fileRef = F96070DA1543675E004D91DD /* cdt.h */; };
-		B91975AE163AEA54009C397B /* sweep.h in Headers */ = {isa = PBXBuildFile; fileRef = F96070DC1543675E004D91DD /* sweep.h */; };
-		B91975AF163AEA54009C397B /* sweep_context.h in Headers */ = {isa = PBXBuildFile; fileRef = F96070DE1543675E004D91DD /* sweep_context.h */; };
-		B91975B0163AEA54009C397B /* ai_assert.h in Headers */ = {isa = PBXBuildFile; fileRef = F97BA03515439DB3009EB9DD /* ai_assert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B91975B7163AEA54009C397B /* 3DSConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF45A860E4B716800207D74 /* 3DSConverter.cpp */; };
 		B91975B8163AEA54009C397B /* 3DSLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF45A890E4B716800207D74 /* 3DSLoader.cpp */; };
 		B91975B9163AEA54009C397B /* ASELoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AF45A8E0E4B716800207D74 /* ASELoader.cpp */; };
@@ -1994,6 +1787,52 @@
 		F9BA8C52154328B600E63FFE /* OgreXmlHelper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8C3A154328B600E63FFE /* OgreXmlHelper.hpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1CC48309188CFAAF0029408D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1CC4830A188CFB250029408D /* ai_assert.h in CopyFiles */,
+				1CC4830B188CFB250029408D /* anim.h in CopyFiles */,
+				1CC4830C188CFB250029408D /* camera.h in CopyFiles */,
+				1CC4830D188CFB250029408D /* cexport.h in CopyFiles */,
+				1CC4830E188CFB250029408D /* cfileio.h in CopyFiles */,
+				1CC4830F188CFB250029408D /* cimport.h in CopyFiles */,
+				1CC48310188CFB250029408D /* color4.h in CopyFiles */,
+				1CC48311188CFB250029408D /* poppack1.h in CopyFiles */,
+				1CC48312188CFB250029408D /* pushpack1.h in CopyFiles */,
+				1CC48313188CFB250029408D /* config.h in CopyFiles */,
+				1CC48314188CFB250029408D /* DefaultLogger.hpp in CopyFiles */,
+				1CC48315188CFB250029408D /* defs.h in CopyFiles */,
+				1CC48316188CFB250029408D /* Exporter.hpp in CopyFiles */,
+				1CC48317188CFB250029408D /* Importer.hpp in CopyFiles */,
+				1CC48318188CFB250029408D /* importerdesc.h in CopyFiles */,
+				1CC48319188CFB250029408D /* IOStream.hpp in CopyFiles */,
+				1CC4831A188CFB250029408D /* IOSystem.hpp in CopyFiles */,
+				1CC4831B188CFB250029408D /* light.h in CopyFiles */,
+				1CC4831C188CFB250029408D /* Logger.hpp in CopyFiles */,
+				1CC4831D188CFB250029408D /* LogStream.hpp in CopyFiles */,
+				1CC4831E188CFB250029408D /* material.h in CopyFiles */,
+				1CC4831F188CFB250029408D /* matrix3x3.h in CopyFiles */,
+				1CC48320188CFB250029408D /* matrix4x4.h in CopyFiles */,
+				1CC48321188CFB250029408D /* mesh.h in CopyFiles */,
+				1CC48322188CFB250029408D /* NullLogger.hpp in CopyFiles */,
+				1CC48323188CFB250029408D /* postprocess.h in CopyFiles */,
+				1CC48324188CFB250029408D /* ProgressHandler.hpp in CopyFiles */,
+				1CC48325188CFB250029408D /* quaternion.h in CopyFiles */,
+				1CC48326188CFB250029408D /* scene.h in CopyFiles */,
+				1CC48327188CFB250029408D /* texture.h in CopyFiles */,
+				1CC48328188CFB250029408D /* types.h in CopyFiles */,
+				1CC48329188CFB250029408D /* vector2.h in CopyFiles */,
+				1CC4832A188CFB250029408D /* vector3.h in CopyFiles */,
+				1CC4832B188CFB250029408D /* version.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2B7F456D1708365100A106A9 /* assbin_chunks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assbin_chunks.h; sourceTree = "<group>"; };
 		2B7F456E1708365100A106A9 /* Assimp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Assimp.cpp; sourceTree = "<group>"; };
@@ -2295,7 +2134,7 @@
 		8E8DEEA4127E2D59005EF64D /* libassimpd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libassimpd.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8DEEA5127E2D59005EF64D /* libassimpd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libassimpd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8DEEA6127E2D59005EF64D /* libassimpd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libassimpd.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B919763F163AEA54009C397B /* libassimp-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libassimp-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B919763F163AEA54009C397B /* libassimp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libassimp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90BAFD00F5DD87000124155 /* ACLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ACLoader.cpp; sourceTree = "<group>"; };
 		F90BAFD10F5DD87000124155 /* ACLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACLoader.h; sourceTree = "<group>"; };
 		F90BAFD90F5DD90800124155 /* IRRLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IRRLoader.cpp; sourceTree = "<group>"; };
@@ -2460,7 +2299,7 @@
 				8E8DEEA4127E2D59005EF64D /* libassimpd.a */,
 				8E8DEEA5127E2D59005EF64D /* libassimpd.dylib */,
 				8E8DEEA6127E2D59005EF64D /* libassimpd.a */,
-				B919763F163AEA54009C397B /* libassimp-ios.a */,
+				B919763F163AEA54009C397B /* libassimp.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3863,254 +3702,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B91974D0163AEA54009C397B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B91974D1163AEA54009C397B /* 3DSHelper.h in Headers */,
-				B91974D2163AEA54009C397B /* 3DSLoader.h in Headers */,
-				B91974D3163AEA54009C397B /* ASELoader.h in Headers */,
-				B91974D4163AEA54009C397B /* ASEParser.h in Headers */,
-				B91974E0163AEA54009C397B /* HalfLifeFileData.h in Headers */,
-				B91974E1163AEA54009C397B /* HMPLoader.h in Headers */,
-				B91974E6163AEA54009C397B /* MD2FileData.h in Headers */,
-				B91974E7163AEA54009C397B /* MD2Loader.h in Headers */,
-				B91974E8163AEA54009C397B /* MD2NormalTable.h in Headers */,
-				B91974E9163AEA54009C397B /* MD3FileData.h in Headers */,
-				B91974EA163AEA54009C397B /* MD3Loader.h in Headers */,
-				B91974EB163AEA54009C397B /* MD5Loader.h in Headers */,
-				B91974EC163AEA54009C397B /* MD5Parser.h in Headers */,
-				B91974ED163AEA54009C397B /* MDLDefaultColorMap.h in Headers */,
-				B91974EE163AEA54009C397B /* MDLFileData.h in Headers */,
-				B91974EF163AEA54009C397B /* MDLLoader.h in Headers */,
-				B91974F6163AEA54009C397B /* PlyLoader.h in Headers */,
-				B91974F7163AEA54009C397B /* PlyParser.h in Headers */,
-				B91974FC163AEA54009C397B /* SMDLoader.h in Headers */,
-				B9197506163AEA54009C397B /* XFileHelper.h in Headers */,
-				B9197507163AEA54009C397B /* XFileImporter.h in Headers */,
-				B9197508163AEA54009C397B /* XFileParser.h in Headers */,
-				B9197509163AEA54009C397B /* MDCFileData.h in Headers */,
-				B919750A163AEA54009C397B /* MDCLoader.h in Headers */,
-				B919750B163AEA54009C397B /* MDCNormalTable.h in Headers */,
-				B919750D163AEA54009C397B /* LWOFileData.h in Headers */,
-				B919750E163AEA54009C397B /* LWOLoader.h in Headers */,
-				B919750F163AEA54009C397B /* HMPFileData.h in Headers */,
-				B9197512163AEA54009C397B /* ACLoader.h in Headers */,
-				B9197513163AEA54009C397B /* IRRLoader.h in Headers */,
-				B9197514163AEA54009C397B /* IRRMeshLoader.h in Headers */,
-				B9197515163AEA54009C397B /* IRRShared.h in Headers */,
-				B9197519163AEA54009C397B /* NFFLoader.h in Headers */,
-				B919751B163AEA54009C397B /* Q3DLoader.h in Headers */,
-				B919751C163AEA54009C397B /* BVHLoader.h in Headers */,
-				B919751D163AEA54009C397B /* OFFLoader.h in Headers */,
-				B919751E163AEA54009C397B /* RawLoader.h in Headers */,
-				B919751F163AEA54009C397B /* DXFLoader.h in Headers */,
-				B9197520163AEA54009C397B /* TerragenLoader.h in Headers */,
-				B9197521163AEA54009C397B /* irrXMLWrapper.h in Headers */,
-				B919752D163AEA54009C397B /* B3DImporter.h in Headers */,
-				B9197535163AEA54009C397B /* CSMLoader.h in Headers */,
-				B9197536163AEA54009C397B /* LWSLoader.h in Headers */,
-				B9197537163AEA54009C397B /* LWOAnimation.h in Headers */,
-				B9197538163AEA54009C397B /* MS3DLoader.h in Headers */,
-				B9197539163AEA54009C397B /* UnrealLoader.h in Headers */,
-				B9197545163AEA54009C397B /* BlenderDNA.h in Headers */,
-				B9197546163AEA54009C397B /* BlenderLoader.h in Headers */,
-				B9197547163AEA54009C397B /* BlenderScene.h in Headers */,
-				B9197548163AEA54009C397B /* BlenderSceneGen.h in Headers */,
-				B919754D163AEA54009C397B /* AssimpPCH.h in Headers */,
-				B919754E163AEA54009C397B /* COBLoader.h in Headers */,
-				B919754F163AEA54009C397B /* COBScene.h in Headers */,
-				B9197550163AEA54009C397B /* revision.h in Headers */,
-				B9197555163AEA54009C397B /* Q3BSPFileData.h in Headers */,
-				B9197556163AEA54009C397B /* Q3BSPFileImporter.h in Headers */,
-				B9197557163AEA54009C397B /* Q3BSPFileParser.h in Headers */,
-				B9197558163AEA54009C397B /* Q3BSPZipArchive.h in Headers */,
-				B9197559163AEA54009C397B /* NDOLoader.h in Headers */,
-				B919755A163AEA54009C397B /* BlenderIntermediate.h in Headers */,
-				B919755B163AEA54009C397B /* BlenderModifier.h in Headers */,
-				B9197560163AEA54009C397B /* ConvertUTF.h in Headers */,
-				B9197561163AEA54009C397B /* CXMLReaderImpl.h in Headers */,
-				B9197562163AEA54009C397B /* heapsort.h in Headers */,
-				B9197563163AEA54009C397B /* irrArray.h in Headers */,
-				B9197564163AEA54009C397B /* irrString.h in Headers */,
-				B9197565163AEA54009C397B /* irrTypes.h in Headers */,
-				B9197566163AEA54009C397B /* irrXML.h in Headers */,
-				B9197567163AEA54009C397B /* crypt.h in Headers */,
-				B9197568163AEA54009C397B /* ioapi.h in Headers */,
-				B9197569163AEA54009C397B /* unzip.h in Headers */,
-				B919756A163AEA54009C397B /* anim.h in Headers */,
-				B919756B163AEA54009C397B /* camera.h in Headers */,
-				B919756C163AEA54009C397B /* cexport.h in Headers */,
-				B919756D163AEA54009C397B /* cfileio.h in Headers */,
-				B919756E163AEA54009C397B /* cimport.h in Headers */,
-				B919756F163AEA54009C397B /* color4.h in Headers */,
-				B9197570163AEA54009C397B /* poppack1.h in Headers */,
-				B9197571163AEA54009C397B /* pushpack1.h in Headers */,
-				B9197572163AEA54009C397B /* config.h in Headers */,
-				B9197573163AEA54009C397B /* DefaultLogger.hpp in Headers */,
-				B9197574163AEA54009C397B /* defs.h in Headers */,
-				B9197575163AEA54009C397B /* Exporter.hpp in Headers */,
-				B9197576163AEA54009C397B /* Importer.hpp in Headers */,
-				B9197577163AEA54009C397B /* importerdesc.h in Headers */,
-				B9197578163AEA54009C397B /* IOStream.hpp in Headers */,
-				B9197579163AEA54009C397B /* IOSystem.hpp in Headers */,
-				B919757A163AEA54009C397B /* light.h in Headers */,
-				B919757B163AEA54009C397B /* Logger.hpp in Headers */,
-				B919757C163AEA54009C397B /* LogStream.hpp in Headers */,
-				B919757D163AEA54009C397B /* material.h in Headers */,
-				B919757E163AEA54009C397B /* matrix3x3.h in Headers */,
-				B919757F163AEA54009C397B /* matrix4x4.h in Headers */,
-				B9197580163AEA54009C397B /* mesh.h in Headers */,
-				B9197581163AEA54009C397B /* NullLogger.hpp in Headers */,
-				B9197582163AEA54009C397B /* postprocess.h in Headers */,
-				B9197583163AEA54009C397B /* ProgressHandler.hpp in Headers */,
-				B9197584163AEA54009C397B /* quaternion.h in Headers */,
-				B9197585163AEA54009C397B /* scene.h in Headers */,
-				B9197586163AEA54009C397B /* texture.h in Headers */,
-				B9197587163AEA54009C397B /* types.h in Headers */,
-				B9197588163AEA54009C397B /* vector2.h in Headers */,
-				B9197589163AEA54009C397B /* vector3.h in Headers */,
-				B919758A163AEA54009C397B /* version.h in Headers */,
-				B919758B163AEA54009C397B /* OgreImporter.hpp in Headers */,
-				B919758C163AEA54009C397B /* OgreXmlHelper.hpp in Headers */,
-				B9197596163AEA54009C397B /* PlyExporter.h in Headers */,
-				B919759C163AEA54009C397B /* crc32.h in Headers */,
-				B919759D163AEA54009C397B /* deflate.h in Headers */,
-				B919759E163AEA54009C397B /* inffast.h in Headers */,
-				B919759F163AEA54009C397B /* inffixed.h in Headers */,
-				B91975A0163AEA54009C397B /* inflate.h in Headers */,
-				B91975A1163AEA54009C397B /* inftrees.h in Headers */,
-				B91975A2163AEA54009C397B /* trees.h in Headers */,
-				B91975A3163AEA54009C397B /* zconf.h in Headers */,
-				B91975A4163AEA54009C397B /* zconf.in.h in Headers */,
-				B91975A5163AEA54009C397B /* zlib.h in Headers */,
-				B91975A6163AEA54009C397B /* zutil.h in Headers */,
-				B91975A7163AEA54009C397B /* XGLLoader.h in Headers */,
-				B91975A8163AEA54009C397B /* clipper.hpp in Headers */,
-				B91975A9163AEA54009C397B /* shapes.h in Headers */,
-				B91975AA163AEA54009C397B /* utils.h in Headers */,
-				B91975AB163AEA54009C397B /* poly2tri.h in Headers */,
-				B91975AC163AEA54009C397B /* advancing_front.h in Headers */,
-				B91975AD163AEA54009C397B /* cdt.h in Headers */,
-				B91975AE163AEA54009C397B /* sweep.h in Headers */,
-				B91975AF163AEA54009C397B /* sweep_context.h in Headers */,
-				B91975B0163AEA54009C397B /* ai_assert.h in Headers */,
-				2B7F46E11708365200A106A9 /* assbin_chunks.h in Headers */,
-				2B7F47091708365200A106A9 /* BaseImporter.h in Headers */,
-				2B7F47131708365200A106A9 /* BaseProcess.h in Headers */,
-				2B7F474A1708365200A106A9 /* BlobIOSystem.h in Headers */,
-				2B7F474F1708365200A106A9 /* foreach.hpp in Headers */,
-				2B7F47541708365200A106A9 /* format.hpp in Headers */,
-				2B7F47591708365200A106A9 /* lexical_cast.hpp in Headers */,
-				2B7F475E1708365200A106A9 /* make_shared.hpp in Headers */,
-				2B7F47631708365200A106A9 /* common_factor_rt.hpp in Headers */,
-				2B7F47681708365200A106A9 /* noncopyable.hpp in Headers */,
-				2B7F476D1708365200A106A9 /* pointer_cast.hpp in Headers */,
-				2B7F47721708365200A106A9 /* scoped_array.hpp in Headers */,
-				2B7F47771708365200A106A9 /* scoped_ptr.hpp in Headers */,
-				2B7F477C1708365200A106A9 /* shared_array.hpp in Headers */,
-				2B7F47811708365200A106A9 /* shared_ptr.hpp in Headers */,
-				2B7F47861708365200A106A9 /* static_assert.hpp in Headers */,
-				2B7F478B1708365200A106A9 /* timer.hpp in Headers */,
-				2B7F47901708365200A106A9 /* tuple.hpp in Headers */,
-				2B7F479F1708365200A106A9 /* ByteSwap.h in Headers */,
-				2B7F47A91708365200A106A9 /* CalcTangentsProcess.h in Headers */,
-				2B7F47AE1708365200A106A9 /* CInterfaceIOWrapper.h in Headers */,
-				2B7F47C71708365200A106A9 /* ColladaExporter.h in Headers */,
-				2B7F47CC1708365200A106A9 /* ColladaHelper.h in Headers */,
-				2B7F47D61708365200A106A9 /* ColladaLoader.h in Headers */,
-				2B7F47E01708365200A106A9 /* ColladaParser.h in Headers */,
-				2B7F47EA1708365200A106A9 /* ComputeUVMappingProcess.h in Headers */,
-				2B7F47F41708365200A106A9 /* ConvertToLHProcess.h in Headers */,
-				2B7F48081708365200A106A9 /* DeboneProcess.h in Headers */,
-				2B7F48121708365200A106A9 /* DefaultIOStream.h in Headers */,
-				2B7F481C1708365200A106A9 /* DefaultIOSystem.h in Headers */,
-				2B7F48261708365200A106A9 /* DefaultProgressHandler.h in Headers */,
-				2B7F483A1708365200A106A9 /* Exceptional.h in Headers */,
-				2B7F48441708365200A106A9 /* fast_atof.h in Headers */,
-				2B7F48531708365200A106A9 /* FBXCompileConfig.h in Headers */,
-				2B7F485D1708365200A106A9 /* FBXConverter.h in Headers */,
-				2B7F486C1708365200A106A9 /* FBXDocument.h in Headers */,
-				2B7F48761708365200A106A9 /* FBXDocumentUtil.h in Headers */,
-				2B7F48801708365200A106A9 /* FBXImporter.h in Headers */,
-				2B7F48851708365200A106A9 /* FBXImportSettings.h in Headers */,
-				2B7F48A31708365200A106A9 /* FBXParser.h in Headers */,
-				2B7F48AD1708365200A106A9 /* FBXProperties.h in Headers */,
-				2B7F48B71708365200A106A9 /* FBXTokenizer.h in Headers */,
-				2B7F48C11708365200A106A9 /* FBXUtil.h in Headers */,
-				2B7F48C61708365200A106A9 /* FileLogStream.h in Headers */,
-				2B7F48CB1708365200A106A9 /* FileSystemFilter.h in Headers */,
-				2B7F48D51708365200A106A9 /* FindDegenerates.h in Headers */,
-				2B7F48DF1708365200A106A9 /* FindInstancesProcess.h in Headers */,
-				2B7F48E91708365200A106A9 /* FindInvalidDataProcess.h in Headers */,
-				2B7F48F31708365200A106A9 /* FixNormalsStep.h in Headers */,
-				2B7F48F81708365200A106A9 /* GenericProperty.h in Headers */,
-				2B7F49021708365200A106A9 /* GenFaceNormalsProcess.h in Headers */,
-				2B7F490C1708365200A106A9 /* GenVertexNormalsProcess.h in Headers */,
-				2B7F49161708365200A106A9 /* Hash.h in Headers */,
-				2B7F493E1708365200A106A9 /* IFCLoader.h in Headers */,
-				2B7F49571708365200A106A9 /* IFCReaderGen.h in Headers */,
-				2B7F49611708365200A106A9 /* IFCUtil.h in Headers */,
-				2B7F49661708365200A106A9 /* IFF.h in Headers */,
-				2B7F49701708365200A106A9 /* Importer.h in Headers */,
-				2B7F497F1708365200A106A9 /* ImproveCacheLocality.h in Headers */,
-				2B7F49AC1708365200A106A9 /* JoinVerticesProcess.h in Headers */,
-				2B7F49B61708365200A106A9 /* LimitBoneWeightsProcess.h in Headers */,
-				2B7F49BB1708365200A106A9 /* LineSplitter.h in Headers */,
-				2B7F49C01708365200A106A9 /* LogAux.h in Headers */,
-				2B7F4A011708365200A106A9 /* MakeVerboseFormat.h in Headers */,
-				2B7F4A0B1708365200A106A9 /* MaterialSystem.h in Headers */,
-				2B7F4A331708365200A106A9 /* MD4FileData.h in Headers */,
-				2B7F4A791708365200A106A9 /* MemoryIOWrapper.h in Headers */,
-				2B7F4AA11708365200A106A9 /* ObjExporter.h in Headers */,
-				2B7F4AA61708365200A106A9 /* ObjFileData.h in Headers */,
-				2B7F4AB01708365200A106A9 /* ObjFileImporter.h in Headers */,
-				2B7F4ABA1708365200A106A9 /* ObjFileMtlImporter.h in Headers */,
-				2B7F4AC41708365200A106A9 /* ObjFileParser.h in Headers */,
-				2B7F4AC91708365200A106A9 /* ObjTools.h in Headers */,
-				2B7F4AFB1708365200A106A9 /* OptimizeGraph.h in Headers */,
-				2B7F4B051708365200A106A9 /* OptimizeMeshes.h in Headers */,
-				2B7F4B0A1708365200A106A9 /* ParsingUtils.h in Headers */,
-				2B7F4B2D1708365200A106A9 /* PolyTools.h in Headers */,
-				2B7F4B3C1708365200A106A9 /* PretransformVertices.h in Headers */,
-				2B7F4B461708365200A106A9 /* ProcessHelper.h in Headers */,
-				2B7F4B4B1708365200A106A9 /* Profiler.h in Headers */,
-				2B7F4B501708365200A106A9 /* pstdint.h in Headers */,
-				2B7F4B821708365200A106A9 /* qnan.h in Headers */,
-				2B7F4B961708365200A106A9 /* RemoveComments.h in Headers */,
-				2B7F4BA01708365200A106A9 /* RemoveRedundantMaterials.h in Headers */,
-				2B7F4BAA1708365200A106A9 /* RemoveVCProcess.h in Headers */,
-				2B7F4BB91708365200A106A9 /* SceneCombiner.h in Headers */,
-				2B7F4BC31708365200A106A9 /* ScenePreprocessor.h in Headers */,
-				2B7F4BC81708365200A106A9 /* ScenePrivate.h in Headers */,
-				2B7F4BD21708365200A106A9 /* SGSpatialSort.h in Headers */,
-				2B7F4BDC1708365200A106A9 /* SkeletonMeshBuilder.h in Headers */,
-				2B7F4BEB1708365200A106A9 /* SmoothingGroups.h in Headers */,
-				2B7F4BF51708365200A106A9 /* SortByPTypeProcess.h in Headers */,
-				2B7F4BFF1708365200A106A9 /* SpatialSort.h in Headers */,
-				2B7F4C091708365200A106A9 /* SplitByBoneCountProcess.h in Headers */,
-				2B7F4C131708365200A106A9 /* SplitLargeMeshes.h in Headers */,
-				2B7F4C1D1708365200A106A9 /* StandardShapes.h in Headers */,
-				2B7F4C221708365200A106A9 /* StdOStreamLogStream.h in Headers */,
-				2B7F4C271708365200A106A9 /* STEPFile.h in Headers */,
-				2B7F4C311708365200A106A9 /* STEPFileEncoding.h in Headers */,
-				2B7F4C3B1708365200A106A9 /* STEPFileReader.h in Headers */,
-				2B7F4C451708365200A106A9 /* STLExporter.h in Headers */,
-				2B7F4C4F1708365200A106A9 /* STLLoader.h in Headers */,
-				2B7F4C541708365200A106A9 /* StreamReader.h in Headers */,
-				2B7F4C591708365200A106A9 /* StringComparison.h in Headers */,
-				2B7F4C631708365200A106A9 /* Subdivision.h in Headers */,
-				2B7F4C6D1708365200A106A9 /* TargetAnimation.h in Headers */,
-				2B7F4C811708365200A106A9 /* TextureTransform.h in Headers */,
-				2B7F4C861708365200A106A9 /* TinyFormatter.h in Headers */,
-				2B7F4C901708365200A106A9 /* TriangulateProcess.h in Headers */,
-				2B7F4CA41708365200A106A9 /* ValidateDataStructure.h in Headers */,
-				2B7F4CA91708365200A106A9 /* Vertex.h in Headers */,
-				2B7F4CB31708365200A106A9 /* VertexTriangleAdjacency.h in Headers */,
-				2B7F4CB81708365200A106A9 /* Win32DebugLogStream.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AAC09905546B4700DB518D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -4648,9 +4239,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B919763C163AEA54009C397B /* Build configuration list for PBXNativeTarget "assimp-ios-static-no-boost" */;
 			buildPhases = (
-				B91974D0163AEA54009C397B /* Headers */,
 				B91975B4163AEA54009C397B /* Frameworks */,
 				B91975B6163AEA54009C397B /* Sources */,
+				1CC48309188CFAAF0029408D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -4658,7 +4249,7 @@
 			);
 			name = "assimp-ios-static-no-boost";
 			productName = "assimp-static";
-			productReference = B919763F163AEA54009C397B /* libassimp-ios.a */;
+			productReference = B919763F163AEA54009C397B /* libassimp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		D2AAC09C05546B4700DB518D /* assimp */ = {
@@ -4702,7 +4293,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "assimp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -5586,9 +5177,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
-				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				GCC_DEBUGGING_SYMBOLS = full;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -5596,18 +5186,18 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ../../code/AssimpPCH.h;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "/usr/local/include/boost-1_38";
 				LD_DYLIB_INSTALL_NAME = libassimp.dylib;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				OBJROOT = "../../obj/$(PROJECT_NAME)_$(CONFIGURATION)_MacOSX";
+				OBJROOT = build;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
-				SYMROOT = "../../bin/$(PROJECT_NAME)_$(CONFIGURATION)_MacOSX";
+				SDKROOT = iphoneos;
+				SYMROOT = build;
 			};
 			name = Debug;
 		};
@@ -5615,32 +5205,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
-				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PFE_FILE_C_DIALECTS = "c++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ../../code/AssimpPCH.h;
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "/usr/local/include/boost-1_38";
 				LD_DYLIB_INSTALL_NAME = libassimp.dylib;
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
-				OBJROOT = "../../obj/$(PROJECT_NAME)_$(CONFIGURATION)_MacOSX";
+				OBJROOT = build;
 				OTHER_LDFLAGS = "";
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
-				SYMROOT = "../../bin/$(PROJECT_NAME)_$(CONFIGURATION)_MacOSX";
+				SDKROOT = iphoneos;
+				SYMROOT = build;
 			};
 			name = Release;
 		};
 		745FF8FE113ECB080020C31B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = stabs;
@@ -5663,7 +5251,6 @@
 		745FF8FF113ECB080020C31B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = stabs;
 				EXECUTABLE_PREFIX = lib;
@@ -5687,7 +5274,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -5714,7 +5300,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_ENABLE_SYMBOL_SEPARATION = NO;
@@ -5741,6 +5326,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_SYMBOL_SEPARATION = NO;
@@ -5748,7 +5335,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ASSIMP_BUILD_BOOST_WORKAROUND;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "${SRCROOT}/../../code/BoostWorkaround";
 				INSTALL_PATH = /usr/local/lib;
 				LD_DYLIB_INSTALL_NAME = "";
@@ -5756,14 +5343,13 @@
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib\"",
 				);
-				OBJROOT = "../../obj/$(PROJECT_NAME)_$(CONFIGURATION)_iOS";
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "assimp-ios";
+				OBJROOT = build;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = assimp;
 				SDKROOT = iphoneos;
 				SEPARATE_STRIP = NO;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "../../bin/$(PROJECT_NAME)_$(CONFIGURATION)_iOS";
 			};
 			name = Debug;
 		};
@@ -5771,6 +5357,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				COPY_PHASE_STRIP = YES;
 				GCC_ENABLE_SYMBOL_SEPARATION = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
@@ -5779,21 +5367,20 @@
 					NDEBUG,
 					ASSIMP_BUILD_BOOST_WORKAROUND,
 				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "${SRCROOT}/../../code/BoostWorkaround";
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib\"",
 				);
-				OBJROOT = "../../obj/$(PROJECT_NAME)_$(CONFIGURATION)_iOS";
+				OBJROOT = build;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "assimp-ios";
+				PRODUCT_NAME = assimp;
 				SDKROOT = iphoneos;
 				SEPARATE_STRIP = NO;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "../../bin/$(PROJECT_NAME)_$(CONFIGURATION)_iOS";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5802,7 +5389,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = stabs;
@@ -5829,7 +5415,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
