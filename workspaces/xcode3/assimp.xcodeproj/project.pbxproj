@@ -7,40 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CC4830A188CFB250029408D /* ai_assert.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F97BA03515439DB3009EB9DD /* ai_assert.h */; };
-		1CC4830B188CFB250029408D /* anim.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B751543268400E63FFE /* anim.h */; };
-		1CC4830C188CFB250029408D /* camera.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B771543268400E63FFE /* camera.h */; };
-		1CC4830D188CFB250029408D /* cexport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B781543268400E63FFE /* cexport.h */; };
-		1CC4830E188CFB250029408D /* cfileio.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B791543268400E63FFE /* cfileio.h */; };
-		1CC4830F188CFB250029408D /* cimport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B7A1543268400E63FFE /* cimport.h */; };
-		1CC48310188CFB250029408D /* color4.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B7B1543268400E63FFE /* color4.h */; };
-		1CC48311188CFB250029408D /* poppack1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B7E1543268400E63FFE /* poppack1.h */; };
-		1CC48312188CFB250029408D /* pushpack1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B7F1543268400E63FFE /* pushpack1.h */; };
-		1CC48313188CFB250029408D /* config.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B801543268400E63FFE /* config.h */; };
-		1CC48314188CFB250029408D /* DefaultLogger.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B811543268400E63FFE /* DefaultLogger.hpp */; };
-		1CC48315188CFB250029408D /* defs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B821543268400E63FFE /* defs.h */; };
-		1CC48316188CFB250029408D /* Exporter.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B831543268400E63FFE /* Exporter.hpp */; };
-		1CC48317188CFB250029408D /* Importer.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B841543268400E63FFE /* Importer.hpp */; };
-		1CC48318188CFB250029408D /* importerdesc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B851543268400E63FFE /* importerdesc.h */; };
-		1CC48319188CFB250029408D /* IOStream.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B861543268400E63FFE /* IOStream.hpp */; };
-		1CC4831A188CFB250029408D /* IOSystem.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B871543268400E63FFE /* IOSystem.hpp */; };
-		1CC4831B188CFB250029408D /* light.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B881543268400E63FFE /* light.h */; };
-		1CC4831C188CFB250029408D /* Logger.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B891543268400E63FFE /* Logger.hpp */; };
-		1CC4831D188CFB250029408D /* LogStream.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B8A1543268400E63FFE /* LogStream.hpp */; };
-		1CC4831E188CFB250029408D /* material.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B8B1543268400E63FFE /* material.h */; };
-		1CC4831F188CFB250029408D /* matrix3x3.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B8D1543268400E63FFE /* matrix3x3.h */; };
-		1CC48320188CFB250029408D /* matrix4x4.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B8F1543268400E63FFE /* matrix4x4.h */; };
-		1CC48321188CFB250029408D /* mesh.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B911543268400E63FFE /* mesh.h */; };
-		1CC48322188CFB250029408D /* NullLogger.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B921543268400E63FFE /* NullLogger.hpp */; };
-		1CC48323188CFB250029408D /* postprocess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B931543268400E63FFE /* postprocess.h */; };
-		1CC48324188CFB250029408D /* ProgressHandler.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B941543268400E63FFE /* ProgressHandler.hpp */; };
-		1CC48325188CFB250029408D /* quaternion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B951543268400E63FFE /* quaternion.h */; };
-		1CC48326188CFB250029408D /* scene.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B971543268400E63FFE /* scene.h */; };
-		1CC48327188CFB250029408D /* texture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B981543268400E63FFE /* texture.h */; };
-		1CC48328188CFB250029408D /* types.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B991543268400E63FFE /* types.h */; };
-		1CC48329188CFB250029408D /* vector2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B9A1543268400E63FFE /* vector2.h */; };
-		1CC4832A188CFB250029408D /* vector3.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B9C1543268400E63FFE /* vector3.h */; };
-		1CC4832B188CFB250029408D /* version.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F9BA8B9E1543268400E63FFE /* version.h */; };
 		1CC4832E188D24F90029408D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC4832D188D24F90029408D /* libz.dylib */; };
 		1CC48330188D25340029408D /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC4832F188D25340029408D /* libstdc++.dylib */; };
 		2B7F46DD1708365200A106A9 /* assbin_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F456D1708365100A106A9 /* assbin_chunks.h */; };
@@ -1698,52 +1664,6 @@
 		F9BA8C51154328B600E63FFE /* OgreSkeleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BA8C39154328B600E63FFE /* OgreSkeleton.cpp */; };
 		F9BA8C52154328B600E63FFE /* OgreXmlHelper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F9BA8C3A154328B600E63FFE /* OgreXmlHelper.hpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1CC48309188CFAAF0029408D /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				1CC4830A188CFB250029408D /* ai_assert.h in CopyFiles */,
-				1CC4830B188CFB250029408D /* anim.h in CopyFiles */,
-				1CC4830C188CFB250029408D /* camera.h in CopyFiles */,
-				1CC4830D188CFB250029408D /* cexport.h in CopyFiles */,
-				1CC4830E188CFB250029408D /* cfileio.h in CopyFiles */,
-				1CC4830F188CFB250029408D /* cimport.h in CopyFiles */,
-				1CC48310188CFB250029408D /* color4.h in CopyFiles */,
-				1CC48311188CFB250029408D /* poppack1.h in CopyFiles */,
-				1CC48312188CFB250029408D /* pushpack1.h in CopyFiles */,
-				1CC48313188CFB250029408D /* config.h in CopyFiles */,
-				1CC48314188CFB250029408D /* DefaultLogger.hpp in CopyFiles */,
-				1CC48315188CFB250029408D /* defs.h in CopyFiles */,
-				1CC48316188CFB250029408D /* Exporter.hpp in CopyFiles */,
-				1CC48317188CFB250029408D /* Importer.hpp in CopyFiles */,
-				1CC48318188CFB250029408D /* importerdesc.h in CopyFiles */,
-				1CC48319188CFB250029408D /* IOStream.hpp in CopyFiles */,
-				1CC4831A188CFB250029408D /* IOSystem.hpp in CopyFiles */,
-				1CC4831B188CFB250029408D /* light.h in CopyFiles */,
-				1CC4831C188CFB250029408D /* Logger.hpp in CopyFiles */,
-				1CC4831D188CFB250029408D /* LogStream.hpp in CopyFiles */,
-				1CC4831E188CFB250029408D /* material.h in CopyFiles */,
-				1CC4831F188CFB250029408D /* matrix3x3.h in CopyFiles */,
-				1CC48320188CFB250029408D /* matrix4x4.h in CopyFiles */,
-				1CC48321188CFB250029408D /* mesh.h in CopyFiles */,
-				1CC48322188CFB250029408D /* NullLogger.hpp in CopyFiles */,
-				1CC48323188CFB250029408D /* postprocess.h in CopyFiles */,
-				1CC48324188CFB250029408D /* ProgressHandler.hpp in CopyFiles */,
-				1CC48325188CFB250029408D /* quaternion.h in CopyFiles */,
-				1CC48326188CFB250029408D /* scene.h in CopyFiles */,
-				1CC48327188CFB250029408D /* texture.h in CopyFiles */,
-				1CC48328188CFB250029408D /* types.h in CopyFiles */,
-				1CC48329188CFB250029408D /* vector2.h in CopyFiles */,
-				1CC4832A188CFB250029408D /* vector3.h in CopyFiles */,
-				1CC4832B188CFB250029408D /* version.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1CC4832D188D24F90029408D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -4066,7 +3986,7 @@
 			buildPhases = (
 				B91975B4163AEA54009C397B /* Frameworks */,
 				B91975B6163AEA54009C397B /* Sources */,
-				1CC48309188CFAAF0029408D /* CopyFiles */,
+				1CC48365189102C90029408D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -4143,6 +4063,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CC48365189102C90029408D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\necho PWD = ${PWD}\necho SRCROOT = ${SRCROOT}\necho BUILT_PRODUCTS_DIR = ${BUILT_PRODUCTS_DIR}\n\n\ncd ${SRCROOT}/../..\n\n  # using . as source below might not be what you want... feel free to change, etc.\n# rsync -rtlRv --delete include ${BUILT_PRODUCTS_DIR}\nrsync -rtlRv include ${BUILT_PRODUCTS_DIR}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		745FF8AF113ECB080020C31B /* Sources */ = {
