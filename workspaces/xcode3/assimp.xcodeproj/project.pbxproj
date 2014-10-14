@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1CC4832E188D24F90029408D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC4832D188D24F90029408D /* libz.dylib */; };
-		1CC48330188D25340029408D /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC4832F188D25340029408D /* libstdc++.dylib */; };
 		2B7F46DD1708365200A106A9 /* assbin_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F456D1708365100A106A9 /* assbin_chunks.h */; };
 		2B7F46DE1708365200A106A9 /* assbin_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F456D1708365100A106A9 /* assbin_chunks.h */; };
 		2B7F46DF1708365200A106A9 /* assbin_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F456D1708365100A106A9 /* assbin_chunks.h */; };
@@ -876,10 +875,6 @@
 		2B7F4CB51708365200A106A9 /* Win32DebugLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A31708365200A106A9 /* Win32DebugLogStream.h */; };
 		2B7F4CB61708365200A106A9 /* Win32DebugLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A31708365200A106A9 /* Win32DebugLogStream.h */; };
 		2B7F4CB71708365200A106A9 /* Win32DebugLogStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7F46A31708365200A106A9 /* Win32DebugLogStream.h */; };
-		2BA44E12170862DE00C78A66 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA44E10170862D800C78A66 /* libstdc++.dylib */; };
-		2BA44E13170862E400C78A66 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA44E10170862D800C78A66 /* libstdc++.dylib */; };
-		2BA44E14170862EA00C78A66 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA44E10170862D800C78A66 /* libstdc++.dylib */; };
-		2BA44E1A1708680600C78A66 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA44E10170862D800C78A66 /* libstdc++.dylib */; };
 		3AB8A3AF0E50D67A00606590 /* MDCFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3AB0E50D67A00606590 /* MDCFileData.h */; };
 		3AB8A3B00E50D67A00606590 /* MDCLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB8A3AC0E50D67A00606590 /* MDCLoader.cpp */; };
 		3AB8A3B10E50D67A00606590 /* MDCLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB8A3AD0E50D67A00606590 /* MDCLoader.h */; };
@@ -2067,7 +2062,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA44E13170862E400C78A66 /* libstdc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2075,7 +2069,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA44E14170862EA00C78A66 /* libstdc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2083,7 +2076,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA44E1A1708680600C78A66 /* libstdc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2091,7 +2083,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC48330188D25340029408D /* libstdc++.dylib in Frameworks */,
 				1CC4832E188D24F90029408D /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2100,7 +2091,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA44E12170862DE00C78A66 /* libstdc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4952,7 +4942,6 @@
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SYMROOT = build;
-				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Debug;
 		};
@@ -5015,7 +5004,6 @@
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SYMROOT = build;
-				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Release;
 		};
@@ -5131,10 +5119,7 @@
 				);
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "${SRCROOT}/../../code/BoostWorkaround";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OBJROOT = build;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = assimp;
@@ -5155,10 +5140,7 @@
 				);
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "${SRCROOT}/../../code/BoostWorkaround";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OBJROOT = build;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = assimp;
