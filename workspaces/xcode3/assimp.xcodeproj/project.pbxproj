@@ -4932,6 +4932,7 @@
 				);
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = "/usr/local/include/boost-1_38";
@@ -4942,6 +4943,10 @@
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SYMROOT = build;
+				WARNING_CFLAGS = (
+					"-Xanalyzer",
+					"-analyzer-disable-checker",
+				);
 			};
 			name = Debug;
 		};
@@ -4995,6 +5000,7 @@
 				);
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = "/usr/local/include/boost-1_38";
@@ -5004,6 +5010,10 @@
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SYMROOT = build;
+				WARNING_CFLAGS = (
+					"-Xanalyzer",
+					"-analyzer-disable-checker",
+				);
 			};
 			name = Release;
 		};
